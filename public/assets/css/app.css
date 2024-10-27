@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+}
+
+:root {
+  color-scheme: light dark;
+}
+
+body {
+  overflow-x: hidden;
+  position: relative;
+}
+
+header {
+  width: 100dvw;
+  display: flex;
+  justify-content: space-between;
+  place-items: center;
+  padding: 12px 14px;
+  background: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+header .logo {
+  width: 100px;
+  height: 50px;
+}
+header .logo img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+header .links {
+  display: flex;
+  -moz-column-gap: 15px;
+       column-gap: 15px;
+  font-size: 13px;
+}
+header .links a {
+  text-transform: uppercase;
+}
+header .actions {
+  display: flex;
+  -moz-column-gap: 14px;
+       column-gap: 14px;
+  place-items: center;
+}
+header .actions a {
+  font-size: 13px;
+}
+
+@media (max-width: 750px) {
+  header .links {
+    display: none;
+  }
+}/*# sourceMappingURL=app.css.map */

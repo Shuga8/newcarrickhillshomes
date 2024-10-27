@@ -1,4 +1,5 @@
 import "./bootstrap";
+import "../css/app.css";
 var themeToggleDarkIcon = document.getElementById("theme-toggle-dark-icon");
 var themeToggleLightIcon = document.getElementById("theme-toggle-light-icon");
 
