@@ -19,7 +19,7 @@ header {
   display: flex;
   justify-content: space-between;
   place-items: center;
-  padding: 12px 14px;
+  padding: 15px 18px;
   background: transparent;
   position: absolute;
   top: 0;
@@ -44,16 +44,30 @@ header .links a {
 }
 header .actions {
   display: flex;
-  -moz-column-gap: 14px;
-       column-gap: 14px;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
   place-items: center;
 }
 header .actions a {
   font-size: 13px;
 }
+header .actions .toggle-icon {
+  display: none;
+}
 
 @media (max-width: 750px) {
   header .links {
     display: none;
+  }
+  header .actions {
+    -moz-column-gap: 24px;
+         column-gap: 24px;
+  }
+  header .actions .contact {
+    display: none;
+  }
+  header .actions .toggle-icon {
+    display: block;
+    font-size: 18px;
   }
 }/*# sourceMappingURL=app.css.map */

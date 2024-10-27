@@ -22,7 +22,14 @@
             </div>
         </div>
 
-        <a href="" class="text-cyan-700 dark:text-yellow-500">Contact Us</a>
+        <a href=""
+            class="contact text-cyan-700 dark:text-yellow-500 border border-cyan-700 dark:border-yellow-500 px-4 py-1 hover:bg-cyan-700 hover:text-white dark:hover:bg-yellow-500 dark:hover:text-white">Contact
+            Us</a>
+
+        <div
+            class="toggle-icon text-slate-800 dark:text-yellow-700 hover:text-slate-700 dark:hover:text-yellow-600 cursor-pointer">
+            <i class="fa-solid fa-bars-staggered "></i>
+        </div>
     </div>
 
 </header>
