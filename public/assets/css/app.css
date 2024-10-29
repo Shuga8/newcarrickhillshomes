@@ -9,6 +9,10 @@
   color-scheme: light dark;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   overflow-x: hidden;
   position: relative;
@@ -90,6 +94,24 @@ header .actions .toggle-icon {
   height: 100%;
 }
 
+.about-us {
+  overflow-x: hidden;
+}
+.about-us > div {
+  flex: 0.5;
+}
+.about-us > div.content-section > div:nth-child(2) {
+  background: url("../IMG_3663.jpeg") no-repeat center center/cover;
+  aspect-ratio: 1/1;
+}
+.about-us > div.content-section > div:nth-child(3) {
+  background: url("../IMG_3669.jpeg") no-repeat center center/cover;
+  aspect-ratio: 1/1;
+}
+.about-us > div.about-hero .book-btn:hover {
+  transition: background 0.3s ease-in-out;
+}
+
 @media (max-width: 750px) {
   header .links {
     display: none;
@@ -109,6 +131,14 @@ header .actions .toggle-icon {
 @media (min-height: 720px) {
   .hero {
     padding-top: 170px;
+  }
+}
+@media (max-width: 768px) {
+  .about-us {
+    flex-direction: column;
+  }
+  .about-us > div {
+    flex: 1;
   }
 }
 @keyframes zoom-in-out {
