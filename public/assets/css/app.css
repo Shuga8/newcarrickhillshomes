@@ -23,6 +23,7 @@ header {
   display: flex;
   justify-content: space-between;
   place-items: center;
+  align-items: center;
   padding: 15px 18px;
 }
 header .logo {
@@ -37,7 +38,7 @@ header .links {
   display: flex;
   -moz-column-gap: 3rem;
        column-gap: 3rem;
-  font-size: 13px;
+  font-size: 16px;
 }
 header .links a {
   text-transform: uppercase;
@@ -50,7 +51,7 @@ header .actions {
   place-items: center;
 }
 header .actions a {
-  font-size: 13px;
+  font-size: 16px;
 }
 header .actions .toggle-icon {
   display: none;
@@ -110,6 +111,36 @@ header .actions .toggle-icon {
 }
 .about-us > div.about-hero .book-btn:hover {
   transition: background 0.3s ease-in-out;
+}
+
+.facilities .price-facilities > div .img-1 {
+  width: 100%;
+  height: 50%;
+  background: url("../IMG_3665.jpeg") no-repeat center center/cover;
+}
+.facilities .price-facilities > div .img-2 {
+  width: 100%;
+  height: 50%;
+  background: url("../IMG_3698.jpeg") no-repeat center center/cover;
+}
+.facilities .price-facilities > div .img-3 {
+  width: 100%;
+  height: 50%;
+  background: url("../IMG_3639.jpeg") no-repeat center center/cover;
+}
+.facilities .price-facilities > div .img-4 {
+  width: 100%;
+  height: 50%;
+  background: url("../IMG_3649.jpeg") no-repeat center center/cover;
+}
+.facilities .price-facilities > div .content {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
 }
 
 @media (max-width: 750px) {

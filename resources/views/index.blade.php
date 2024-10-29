@@ -19,7 +19,7 @@
                 </a>
 
                 <a href=""
-                    class="py-[16px] text-sm px-5 md:px-10 text-gray-600 dark:text-white bg-transparent hover:bg-purple-700 hover:text-white  dark:hover:bg-cyan-600 border-white border ">
+                    class="py-[16px] text-sm px-5 md:px-10 text-gray-600 dark:text-white bg-transparent hover:bg-yellow-600 hover:text-white border-gray-200 border ">
                     Learn More
                 </a>
             </div>
@@ -44,16 +44,17 @@
         <div class="content-section flex flex-wrap gap-x-7 justify-center gap-y-3 md:gap-y-0 ">
 
             <div
-                class="shadow-sm shadow-gray-300 dark:shadow-none dark:bg-white w-[230px] h-[270px] grow md:grow-0 my-0 md:mt-[-30px] block">
+                class="shadow shadow-gray-300 dark:shadow-gray-600 w-[230px] h-[270px] grow md:grow-0 my-0 md:mt-[-30px] px-3 dark:bg-[#7a5b3a] py-2 flex flex-col gap-y-4 items-center place-content-center justify-center">
                 <div
-                    class="icon w-full h-[80px] flex items-center justify-center text-[3.5rem] text-gray-600 dark:text-gray-700">
+                    class="icon w-full h-[80px] flex items-center justify-center text-[3.5rem] text-gray-600 dark:text-gray-100">
                     <i class="fa-solid fa-people-group"></i>
                 </div>
 
-                <h3 class="text-center capitalize text-[18px] font-[450] text-slate-600 mt-[8px]">Strong Team</h3>
+                <h3 class="text-center capitalize text-[18px] font-[450] text-slate-600 dark:text-slate-100 ">
+                    Strong Team</h3>
 
                 <div
-                    class="w-full h-[150px] flex justify-center items-center text-center text-[14px] text-slate-500 px-[10px]">
+                    class="w-full flex justify-center items-center text-center text-[14px] text-slate-500 dark:text-slate-200 px-[10px]">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, consequatur?
                 </div>
             </div>
@@ -98,11 +99,112 @@
                 mollitia rerum, suscipit id consequatur unde corporis quidem recusandae. Magni, officiis eveniet.</div>
 
             <a href=""
-                class="book-btn w-fit py-[16px] text-sm px-14 text-white bg-yellow-600 hover:text-yellow-600 uppercase hover:border-[2px] hover:border-yellow-600 hover:bg-transparent mx-auto md:mx-0">Book
+                class="book-btn w-fit py-[16px] text-sm px-14 text-white bg-yellow-600 hover:text-yellow-600 uppercase border-[2px] border-white dark:border-[#121212] hover:border-yellow-600 dark:hover:border-yellow-600 hover:bg-transparent mx-auto md:mx-0">Book
                 Now</a>
 
 
         </div>
+    </section>
+
+    <section class="facilities w-full py-6 md:py-16 px-3 ">
+        <h3 class="text-gray-400 tracking-[3px] dark-text-white text-[14px] font-semibold text-center uppercase mb-6">
+            Facilities
+        </h3>
+
+        <h4 class="text-[1.5rem] md:text-[3.5rem] text-slate-800 dark:text-white text-center mb-6 font-[450]">Apartments
+            & Rooms
+        </h4>
+
+        <a href=""
+            class="view-more w-fit px-2 mb-6 text-center flex flex-row gap-x-1 place-items-center mx-auto text-slate-400 dark:text-yellow-600 hover:text-yellow-500 dark:hover:text-white font-[500] text-[14px]"><span>View
+                More</span><i class="fa-solid fa-arrow-right"></i></a>
+
+        <div
+            class="price-facilities w-full px-5 py-6 md:px-24 md:py-8 lg:px-28 flex justify-center flex-wrap gap-x-5 gap-y-4 ">
+
+            <div class="basis-[285px] h-[320px] grow md:grow-0">
+
+                <div class="img-1">
+                </div>
+
+                <div class="content">
+                    <h5 class="text-center text-[17px] text-slate-600 dark:text-gray-300 font-semibold">Flex Apartment
+                    </h5>
+
+                    <p class="text-center captialize text-[14px] text-slate-400 dark:text-slate-400">1 persons, 1 Queens
+                        Sized Beds,
+                        2 rooms</p>
+
+                    <p class=" text-slate-400 dark:text-slate-400 text-[15px]"><span
+                            class="amount-ngn text-cyan-700 dark:text-cyan-600 font-semibold">45672</span> / per night
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="basis-[285px] h-[320px] grow md:grow-0">
+
+                <div class="img-2">
+                </div>
+
+                <div class="content">
+                    <h5 class="text-center text-[17px] text-slate-600 dark:text-gray-300 font-semibold">Luxury Apartment
+                    </h5>
+
+                    <p class="text-center captialize text-[14px] text-slate-400 dark:text-slate-400">1 person, 1 King
+                        Sized Bed,
+                        1 rooms</p>
+
+                    <p class=" text-slate-400 dark:text-slate-400 text-[15px]"><span
+                            class="amount-ngn text-cyan-700 dark:text-cyan-600 font-semibold">50720</span> / per night
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="basis-[285px] h-[320px] grow md:grow-0">
+
+                <div class="img-3">
+                </div>
+
+                <div class="content">
+                    <h5 class="text-center text-[17px] text-slate-600 dark:text-gray-300 font-semibold">Garden Apartment
+                    </h5>
+
+                    <p class="text-center captialize text-[14px] text-slate-400 dark:text-slate-400">3 Persons, 2 King
+                        Sized Beds,
+                        3 rooms</p>
+
+                    <p class=" text-slate-400 dark:text-slate-400 text-[15px]"><span
+                            class="amount-ngn text-cyan-700 dark:text-cyan-600 font-semibold">110000</span> / per night
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="basis-[285px] h-[320px] grow md:grow-0">
+
+                <div class="img-4">
+                </div>
+
+                <div class="content">
+                    <h5 class="text-center text-[17px] text-slate-600 dark:text-gray-300 font-semibold">Party Apartment
+                    </h5>
+
+                    <p class="text-center captialize text-[14px] text-slate-400 dark:text-slate-400">Large Party Floor,
+                        4 King
+                        Sized Beds,
+                        6 rooms</p>
+
+                    <p class=" text-slate-400 dark:text-slate-400 text-[15px]"><span
+                            class="amount-ngn text-cyan-700 dark:text-cyan-600 font-semibold">170000</span> / per night
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+
     </section>
 
     @push('script')
@@ -123,6 +225,21 @@
             setInterval(() => {
                 swapImages();
             }, 3000);
+
+            const amounts = document.querySelectorAll(".amount-ngn");
+
+            amounts.forEach(amount => {
+                let former = parseFloat(amount.textContent)
+
+                former = former.toLocaleString("en-NG", {
+                    style: "currency",
+                    currency: "NGN",
+                    minimumFractionDigits: 2,
+                    maximumFractionDigits: 2,
+                })
+
+                amount.textContent = former
+            });
         </script>
     @endpush
 
