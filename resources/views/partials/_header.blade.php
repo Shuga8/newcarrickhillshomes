@@ -1,4 +1,4 @@
-<header>
+<header class="bg-white dark:bg-[#121212]">
 
     <div class="logo">
         <img src="{{ asset('assets/logo-dark.png') }}" alt="">
@@ -7,6 +7,7 @@
     <div class="links">
         <a href="" class="text-cyan-700 dark:text-yellow-500">Home</a>
         <a href="" class="text-cyan-700 dark:text-yellow-500">Apartments</a>
+        <a href="" class="text-cyan-700 dark:text-yellow-500">Gallery</a>
         <a href="" class="text-cyan-700 dark:text-yellow-500">Locations</a>
     </div>
 

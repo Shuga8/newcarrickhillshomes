@@ -20,10 +20,6 @@ header {
   justify-content: space-between;
   place-items: center;
   padding: 15px 18px;
-  background: transparent;
-  position: absolute;
-  top: 0;
-  left: 0;
 }
 header .logo {
   width: 100px;
@@ -35,12 +31,13 @@ header .logo img {
 }
 header .links {
   display: flex;
-  -moz-column-gap: 15px;
-       column-gap: 15px;
+  -moz-column-gap: 3rem;
+       column-gap: 3rem;
   font-size: 13px;
 }
 header .links a {
   text-transform: uppercase;
+  font-weight: 450;
 }
 header .actions {
   display: flex;
@@ -53,6 +50,44 @@ header .actions a {
 }
 header .actions .toggle-icon {
   display: none;
+}
+
+.hero {
+  padding-top: 100px;
+  position: relative;
+}
+.hero .hero-content .hero-label {
+  letter-spacing: 2px;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.hero .hero-content h1 {
+  font-size: 3rem;
+  font-style: italic;
+}
+.hero .img-slideshow {
+  overflow: hidden;
+  position: relative;
+}
+.hero .img-slideshow > img {
+  width: 100%;
+  height: 100%;
+  animation: zoom-in-out 10.5s infinite;
+}
+.hero .img-slideshow .float-img {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  bottom: 15px;
+  right: 5px;
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+  filter: blur(2px);
+}
+.hero .img-slideshow .float-img img {
+  width: 100%;
+  height: 100%;
 }
 
 @media (max-width: 750px) {
@@ -69,5 +104,21 @@ header .actions .toggle-icon {
   header .actions .toggle-icon {
     display: block;
     font-size: 18px;
+  }
+}
+@media (min-height: 720px) {
+  .hero {
+    padding-top: 170px;
+  }
+}
+@keyframes zoom-in-out {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.3);
+  }
+  100% {
+    transform: scale(1);
   }
 }/*# sourceMappingURL=app.css.map */
