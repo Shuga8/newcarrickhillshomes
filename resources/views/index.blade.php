@@ -124,7 +124,11 @@
 
             <div class="basis-[285px] h-[320px] grow md:grow-0">
 
-                <div class="img-1">
+                <div class="anchor">
+                    <a href="">
+                        <div class="img-1">
+                        </div>
+                    </a>
                 </div>
 
                 <div class="content">
@@ -144,7 +148,11 @@
 
             <div class="basis-[285px] h-[320px] grow md:grow-0">
 
-                <div class="img-2">
+                <div class="anchor">
+                    <a href="">
+                        <div class="img-2">
+                        </div>
+                    </a>
                 </div>
 
                 <div class="content">
@@ -164,7 +172,11 @@
 
             <div class="basis-[285px] h-[320px] grow md:grow-0">
 
-                <div class="img-3">
+                <div class="anchor">
+                    <a href="">
+                        <div class="img-3">
+                        </div>
+                    </a>
                 </div>
 
                 <div class="content">
@@ -184,7 +196,11 @@
 
             <div class="basis-[285px] h-[320px] grow md:grow-0">
 
-                <div class="img-4">
+                <div class="anchor">
+                    <a href="">
+                        <div class="img-4">
+                        </div>
+                    </a>
                 </div>
 
                 <div class="content">
