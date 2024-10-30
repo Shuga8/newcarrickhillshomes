@@ -228,7 +228,9 @@
             Facilities
         </h3>
 
-        <h4 class="text-[1.5rem] md:text-[3.5rem] text-slate-800 dark:text-white text-center mb-6 font-[450]">Core
+        <h4
+            class="old-standard text-[1.5rem] md:text-[60px] text-slate-800 dark:text-white text-center mb-6 font-[450]">
+            Core
             Features
         </h4>
 
@@ -383,9 +385,56 @@
     </section>
 
     <section
-        class="accolades w-full py-6 md:py-16 px-3 bg-stone-900 dark:bg-[#121212]  flex justify-center gap-x-6 gap-y-6 flex-wrap">
+        class="accolades w-full py-6 md:py-16 px-3 bg-yellow-950 dark:bg-[#121212]  flex justify-center gap-x-6 gap-y-6 flex-wrap place-content-center">
 
-        <div class="bg-green-600 basis-[150px] md:basis-[220px] h-[250px]"></div>
+        <div class="basis-[150px] md:basis-[220px] h-[220px]">
+
+            <div class="icon w-[100px] h-[100px] text-white mb-3">
+                <img src="{{ asset('assets/icons/home.png') }}" class="w-full h-full object-contain" alt="">
+            </div>
+
+            <h5 class=" text-white dark:text-white  old-standard"><span class="text-[40px] font-bold">
+                    100</span><span class="text-[12px]">+</span></h5>
+
+            <p class="mt-2 text-[13px] text-white dark:text-white uppercase">Apartments in Nigeria</p>
+        </div>
+
+        <div class="basis-[150px] md:basis-[220px] h-[220px]">
+
+            <div class="icon w-[100px] h-[100px] text-white mb-3">
+                <img src="{{ asset('assets/icons/tools.png') }}" class="w-full h-full object-contain" alt="">
+            </div>
+
+            <h5 class=" text-white dark:text-white  old-standard"><span class="text-[40px] font-bold">
+                    8</span><span class="text-[12px]">+</span></h5>
+
+            <p class="mt-2 text-[13px] text-white dark:text-white uppercase">Active Services</p>
+        </div>
+
+        <div class="basis-[150px] md:basis-[220px] h-[220px]">
+
+            <div class="icon w-[100px] h-[100px] text-white mb-3">
+                <img src="{{ asset('assets/icons/wifi.png') }}" class="w-full h-full object-contain" alt="">
+            </div>
+
+            <h5 class=" text-white dark:text-white  old-standard"><span class="text-[40px] font-bold">
+                    Wifi</span><span class="text-[12px]">+</span></h5>
+
+            <p class="mt-2 text-[13px] text-white dark:text-white uppercase">24/7 Internent</p>
+        </div>
+
+        <div class="basis-[150px] md:basis-[220px] h-[220px]">
+
+            <div class="icon w-[100px] h-[100px] text-white mb-3">
+                <img src="{{ asset('assets/icons/customer-experience.png') }}" class="w-full h-full object-contain"
+                    alt="">
+            </div>
+
+            <h5 class=" text-white dark:text-white  old-standard"><span class="text-[40px] font-bold">
+                    1000</span><span class="text-[12px]">+</span></h5>
+
+            <p class="mt-2 text-[13px] text-white dark:text-white uppercase">Satisfied CUstomers</p>
+        </div>
     </section>
 
     @push('script')
