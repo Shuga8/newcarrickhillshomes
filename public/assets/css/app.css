@@ -174,6 +174,13 @@ header .actions .toggle-icon {
 .core-features .features > div {
   border: 1px solid #ddd;
 }
+.core-features .features > div:hover {
+  cursor: pointer;
+}
+.core-features .features > div:hover .icon {
+  animation-name: shake-icon;
+  animation-duration: 0.4s;
+}
 
 @media (max-width: 750px) {
   header .links {
@@ -213,5 +220,27 @@ header .actions .toggle-icon {
   }
   100% {
     transform: scale(1);
+  }
+}
+@keyframes shake-icon {
+  0% {
+    transform: rotate(-2deg);
+    margin-left: -2px;
+  }
+  25% {
+    transform: rotate(2deg);
+    margin-left: 2px;
+  }
+  50% {
+    transform: rotate(-2deg);
+    margin-left: -2px;
+  }
+  75% {
+    transform: rotate(2deg);
+    margin-left: 2px;
+  }
+  100% {
+    transform: rotate(0deg);
+    margin-left: 0px;
   }
 }/*# sourceMappingURL=app.css.map */

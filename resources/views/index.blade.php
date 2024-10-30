@@ -382,6 +382,12 @@
         </div>
     </section>
 
+    <section
+        class="accolades w-full py-6 md:py-16 px-3 bg-stone-900 dark:bg-[#121212]  flex justify-center gap-x-6 gap-y-6 flex-wrap">
+
+        <div class="bg-green-600 basis-[150px] md:basis-[220px] h-[250px]"></div>
+    </section>
+
     @push('script')
         <script>
             "use strict";

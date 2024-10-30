@@ -213,6 +213,19 @@ header {
     .features {
         > div {
             border: 1px solid #ddd;
+
+            // .icon {
+            //     transition: all 0.3s ease-in-out;
+            // }
+
+            &:hover {
+                cursor: pointer;
+                .icon {
+                    animation-name: shake-icon;
+                    animation-duration: 0.4s;
+                    // transition: all 0.3s ease-in-out;
+                }
+            }
         }
     }
 }
@@ -263,5 +276,32 @@ header {
 
     100% {
         transform: scale(1);
+    }
+}
+
+@keyframes shake-icon {
+    0% {
+        transform: rotate(-2deg);
+        margin-left: -2px;
+    }
+
+    25% {
+        transform: rotate(2deg);
+        margin-left: 2px;
+    }
+
+    50% {
+        transform: rotate(-2deg);
+        margin-left: -2px;
+    }
+
+    75% {
+        transform: rotate(2deg);
+        margin-left: 2px;
+    }
+
+    100% {
+        transform: rotate(0deg);
+        margin-left: 0px;
     }
 }
