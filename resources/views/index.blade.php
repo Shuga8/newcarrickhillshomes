@@ -8,7 +8,7 @@
                 The ultimate luxury experience
             </p>
 
-            <h1 class="text-slate-800 dark:text-yellow-600 uppercase font-bold text-center md:text-left">
+            <h1 class="text-slate-900 dark:text-yellow-600 capitalize font-bold text-center md:text-left old-standard">
                 New Carrick Hills Home
             </h1>
 
@@ -140,7 +140,7 @@
                         2 rooms</p>
 
                     <p class=" text-slate-400 dark:text-slate-400 text-[15px]"><span
-                            class="amount-ngn text-cyan-700 dark:text-cyan-600 font-semibold">45672</span> / per night
+                            class="amount-ngn text-cyan-700 dark:text-cyan-600 font-semibold">45672</span> / night
                     </p>
                 </div>
 
@@ -164,7 +164,7 @@
                         1 rooms</p>
 
                     <p class=" text-slate-400 dark:text-slate-400 text-[15px]"><span
-                            class="amount-ngn text-cyan-700 dark:text-cyan-600 font-semibold">50720</span> / per night
+                            class="amount-ngn text-cyan-700 dark:text-cyan-600 font-semibold">50720</span> / night
                     </p>
                 </div>
 
@@ -188,7 +188,7 @@
                         3 rooms</p>
 
                     <p class=" text-slate-400 dark:text-slate-400 text-[15px]"><span
-                            class="amount-ngn text-cyan-700 dark:text-cyan-600 font-semibold">110000</span> / per night
+                            class="amount-ngn text-cyan-700 dark:text-cyan-600 font-semibold">110000</span> / night
                     </p>
                 </div>
 
@@ -213,7 +213,7 @@
                         6 rooms</p>
 
                     <p class=" text-slate-400 dark:text-slate-400 text-[15px]"><span
-                            class="amount-ngn text-cyan-700 dark:text-cyan-600 font-semibold">170000</span> / per night
+                            class="amount-ngn text-cyan-700 dark:text-cyan-600 font-semibold">170000</span> / night
                     </p>
                 </div>
 
@@ -221,6 +221,165 @@
         </div>
 
 
+    </section>
+
+    <section class="core-features w-full py-6 md:py-16 px-3 ">
+        <h3 class="text-gray-400 tracking-[3px] dark-text-white text-[14px] font-semibold text-center uppercase mb-6">
+            Facilities
+        </h3>
+
+        <h4 class="text-[1.5rem] md:text-[3.5rem] text-slate-800 dark:text-white text-center mb-6 font-[450]">Core
+            Features
+        </h4>
+
+        <div class="features w-full px-5 py-6 md:px-24 md:py-8 lg:px-28 flex justify-center flex-wrap gap-x-8 gap-y-7 ">
+
+            <div
+                class="relative basis-[350px] h-[370px] shrink md:shrink-0 grow md:grow-0 flex flex-col gap-y-8 place-content-center px-6 md:px-12 py-18">
+
+                <div
+                    class="absolute top-0 right-0 w-[35%] h-[100px] flex justify-center items-center text-[6rem] text-slate-100 dark:text-slate-700">
+                    01
+                </div>
+
+                <div class="icon w-[100px] h-[100px]">
+                    <img src="{{ asset('assets/icons/rate.png') }}" class="w-full h-full object-contain" alt="">
+                </div>
+
+                <h5 class="old-standard uppercase text-[#222] dark:text-gray-200 font-[400] text-[24px]">Good Standard
+                </h5>
+
+                <div class=" text-[#222] dark:text-gray-200 font-[350] w-full text-[13px]">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet ratione repellat mollitia fugiat
+                    delectus dolor repudiandae odit.
+                </div>
+
+
+            </div>
+
+            <div
+                class="relative basis-[350px] h-[370px] shrink md:shrink-0 grow md:grow-0 flex flex-col gap-y-8 place-content-center px-6 md:px-12 py-18">
+
+                <div
+                    class="absolute top-0 right-0 w-[35%] h-[100px] flex justify-center items-center text-[6rem] text-slate-100 dark:text-slate-700">
+                    02
+                </div>
+
+                <div class="icon w-[100px] h-[100px]">
+                    <img src="{{ asset('assets/icons/mute.png') }}" class="w-full h-full object-contain" alt="">
+                </div>
+
+                <h5 class="old-standard uppercase text-[#222] dark:text-gray-200 font-[400] text-[24px]">Quiet Hours
+                </h5>
+
+                <div class=" text-[#222] dark:text-gray-200 font-[350] w-full text-[13px]">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet ratione repellat mollitia fugiat
+                    delectus dolor repudiandae odit.
+                </div>
+
+
+            </div>
+
+            <div
+                class="relative basis-[350px] h-[370px] shrink md:shrink-0 grow md:grow-0 flex flex-col gap-y-8 place-content-center px-6 md:px-12 py-18">
+
+                <div
+                    class="absolute top-0 right-0 w-[35%] h-[100px] flex justify-center items-center text-[6rem] text-slate-100 dark:text-slate-700">
+                    03
+                </div>
+
+                <div class="icon w-[100px] h-[100px]">
+                    <img src="{{ asset('assets/icons/map.png') }}" class="w-full h-full object-contain"
+                        alt="">
+                </div>
+
+                <h5 class="old-standard uppercase text-[#222] dark:text-gray-200 font-[400] text-[24px]">Best Locations
+                </h5>
+
+                <div class=" text-[#222] dark:text-gray-200 font-[350] w-full text-[13px]">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet ratione repellat mollitia fugiat
+                    delectus dolor repudiandae odit.
+                </div>
+
+
+            </div>
+
+            <div
+                class="relative basis-[350px] h-[370px] shrink md:shrink-0 grow md:grow-0 flex flex-col gap-y-8 place-content-center px-6 md:px-12 py-18">
+
+                <div
+                    class="absolute top-0 right-0 w-[35%] h-[100px] flex justify-center items-center text-[6rem] text-slate-100 dark:text-slate-700">
+                    04
+                </div>
+
+                <div class="icon w-[100px] h-[100px]">
+                    <img src="{{ asset('assets/icons/time.png') }}" class="w-full h-full object-contain"
+                        alt="">
+                </div>
+
+                <h5 class="old-standard uppercase text-[#222] dark:text-gray-200 font-[400] text-[24px]">Free
+                    Cancellations
+                </h5>
+
+                <div class=" text-[#222] dark:text-gray-200 font-[350] w-full text-[13px]">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet ratione repellat mollitia fugiat
+                    delectus dolor repudiandae odit.
+                </div>
+
+
+            </div>
+
+            <div
+                class="relative basis-[350px] h-[370px] shrink md:shrink-0 grow md:grow-0 flex flex-col gap-y-8 place-content-center px-6 md:px-12 py-18">
+
+                <div
+                    class="absolute top-0 right-0 w-[35%] h-[100px] flex justify-center items-center text-[6rem] text-slate-100 dark:text-slate-700">
+                    05
+                </div>
+
+                <div class="icon w-[100px] h-[100px]">
+                    <img src="{{ asset('assets/icons/atm-card.png') }}" class="w-full h-full object-contain"
+                        alt="">
+                </div>
+
+                <h5 class="old-standard uppercase text-[#222] dark:text-gray-200 font-[400] text-[24px]">Payment
+                    Options
+                </h5>
+
+                <div class=" text-[#222] dark:text-gray-200 font-[350] w-full text-[13px]">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet ratione repellat mollitia fugiat
+                    delectus dolor repudiandae odit.
+                </div>
+
+
+            </div>
+
+            <div
+                class="relative basis-[350px] h-[370px] shrink md:shrink-0 grow md:grow-0 flex flex-col gap-y-8 place-content-center px-6 md:px-12 py-18">
+
+                <div
+                    class="absolute top-0 right-0 w-[35%] h-[100px] flex justify-center items-center text-[6rem] text-slate-100 dark:text-slate-700">
+                    06
+                </div>
+
+                <div class="icon w-[100px] h-[100px]">
+                    <img src="{{ asset('assets/icons/gift.png') }}" class="w-full h-full object-contain"
+                        alt="">
+                </div>
+
+                <h5 class="old-standard uppercase text-[#222] dark:text-gray-200 font-[400] text-[24px]">Special Offers
+                </h5>
+
+                <div class=" text-[#222] dark:text-gray-200 font-[350] w-full text-[13px]">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet ratione repellat mollitia fugiat
+                    delectus dolor repudiandae odit.
+                </div>
+
+
+            </div>
+
+
+        </div>
     </section>
 
     @push('script')

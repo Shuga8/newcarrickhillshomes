@@ -13,6 +13,10 @@ html {
   scroll-behavior: smooth;
 }
 
+*.old-standard {
+  font-family: "Old Standard TT", serif;
+}
+
 body {
   overflow-x: hidden;
   position: relative;
@@ -67,8 +71,7 @@ header .actions .toggle-icon {
   margin-bottom: 20px;
 }
 .hero .hero-content h1 {
-  font-size: 3rem;
-  font-style: italic;
+  font-size: 66px;
 }
 .hero .img-slideshow {
   overflow: hidden;
@@ -166,6 +169,10 @@ header .actions .toggle-icon {
   justify-content: center;
   align-items: center;
   row-gap: 20px;
+}
+
+.core-features .features > div {
+  border: 1px solid #ddd;
 }
 
 @media (max-width: 750px) {

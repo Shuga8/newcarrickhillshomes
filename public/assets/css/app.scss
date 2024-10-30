@@ -13,6 +13,10 @@ html {
     scroll-behavior: smooth;
 }
 
+*.old-standard {
+    font-family: "Old Standard TT", serif;
+}
+
 body {
     overflow-x: hidden;
     position: relative;
@@ -70,8 +74,7 @@ header {
         }
 
         h1 {
-            font-size: 3rem;
-            font-style: italic;
+            font-size: 66px;
         }
     }
 
@@ -202,6 +205,14 @@ header {
                 align-items: center;
                 row-gap: 20px;
             }
+        }
+    }
+}
+
+.core-features {
+    .features {
+        > div {
+            border: 1px solid #ddd;
         }
     }
 }
