@@ -14,4 +14,6 @@ class PagesController extends Controller
 
         return view('index')->with($data);
     }
+
+    public function subscribe(Request $request) {}
 }

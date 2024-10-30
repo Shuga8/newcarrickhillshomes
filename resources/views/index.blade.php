@@ -387,7 +387,7 @@
     <section
         class="accolades w-full py-6 md:py-16 px-3 bg-yellow-950 dark:bg-[#121212]  flex justify-center gap-x-6 gap-y-6 flex-wrap place-content-center">
 
-        <div class="basis-[150px] md:basis-[220px] h-[220px]">
+        <div class="basis-[150px] md:basis-[220px] h-fit py-4">
 
             <div class="icon w-[100px] h-[100px] text-white mb-3">
                 <img src="{{ asset('assets/icons/home.png') }}" class="w-full h-full object-contain" alt="">
@@ -399,7 +399,7 @@
             <p class="mt-2 text-[13px] text-white dark:text-white uppercase">Apartments in Nigeria</p>
         </div>
 
-        <div class="basis-[150px] md:basis-[220px] h-[220px]">
+        <div class="basis-[150px] md:basis-[220px] h-fit py-4">
 
             <div class="icon w-[100px] h-[100px] text-white mb-3">
                 <img src="{{ asset('assets/icons/tools.png') }}" class="w-full h-full object-contain" alt="">
@@ -411,7 +411,7 @@
             <p class="mt-2 text-[13px] text-white dark:text-white uppercase">Active Services</p>
         </div>
 
-        <div class="basis-[150px] md:basis-[220px] h-[220px]">
+        <div class="basis-[150px] md:basis-[220px] h-fit py-4">
 
             <div class="icon w-[100px] h-[100px] text-white mb-3">
                 <img src="{{ asset('assets/icons/wifi.png') }}" class="w-full h-full object-contain" alt="">
@@ -423,7 +423,7 @@
             <p class="mt-2 text-[13px] text-white dark:text-white uppercase">24/7 Internent</p>
         </div>
 
-        <div class="basis-[150px] md:basis-[220px] h-[220px]">
+        <div class="basis-[150px] md:basis-[220px] h-fit py-4">
 
             <div class="icon w-[100px] h-[100px] text-white mb-3">
                 <img src="{{ asset('assets/icons/customer-experience.png') }}" class="w-full h-full object-contain"
@@ -436,6 +436,27 @@
             <p class="mt-2 text-[13px] text-white dark:text-white uppercase">Satisfied CUstomers</p>
         </div>
     </section>
+
+    <section class="subcribe-form w-full h-[30dvh] px-3 flex justify-center items-center">
+
+        <form action="{{ route('subscribe') }}" method="POST">
+            @csrf
+
+            <h4 class="text-yellow-600 dark:text-yellow-400 text-[13px] font-[450] mb-3">Subscribe to our newsletter
+            </h4>
+
+            <div class="input w-[280px] md:w-[360px] relative">
+                <input type="text" name="email" id="email"
+                    class="py-[10px] px-[6px] border-blue-600 border text-black dark:text-white dark:border-white focus:ring-0 bg-transparent w-full text-[13px] rounded-sm"
+                    placeholder="email address...">
+                <button type="submit"
+                    class="absolute top-[50%] right-[2px] translate-y-[-50%] text-white bg-blue-700 dark:text-white dark:bg-blue-500 pt-1.5 pb-1 px-2.5 rounded-sm"><i
+                        class="fi fi-sr-paper-plane-top"></i></button>
+            </div>
+        </form>
+    </section>
+
+
 
     @push('script')
         <script>
