@@ -16,4 +16,13 @@ class PagesController extends Controller
     }
 
     public function subscribe(Request $request) {}
+
+    public function listings()
+    {
+        $data = [
+            'title' => 'Apartments',
+        ];
+
+        return view('apartments')->with($data);
+    }
 }

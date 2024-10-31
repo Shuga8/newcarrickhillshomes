@@ -1,12 +1,12 @@
-<header class="bg-white dark:bg-[#121212]">
+<header class="bg-white dark:bg-[#121212] ">
 
     <div class="logo">
         <img src="{{ asset('assets/logo-dark.png') }}" alt="">
     </div>
 
     <div class="links">
-        <a href="" class="text-cyan-700 dark:text-yellow-500">Home</a>
-        <a href="" class="text-cyan-700 dark:text-yellow-500">Apartments</a>
+        <a href="{{ route('home') }}" class="text-cyan-700 dark:text-yellow-500">Home</a>
+        <a href="{{ route('apartments') }}" class="text-cyan-700 dark:text-yellow-500">Apartments</a>
         <a href="" class="text-cyan-700 dark:text-yellow-500">Gallery</a>
         <a href="" class="text-cyan-700 dark:text-yellow-500">Locations</a>
     </div>
@@ -34,3 +34,31 @@
     </div>
 
 </header>
+
+@push('script')
+    <script type="text/javascript">
+        "use strict";
+
+        const header = document.querySelector("header");
+
+        let previousY = window.scrollY;
+
+        window.addEventListener("scroll", function() {
+            const currentY = window.scrollY;
+
+            if (currentY < 150) {
+                if (header.classList.contains("scrollable")) {
+                    header.classList.remove("scrollable");
+                }
+            } else {
+
+                previousY = currentY;
+
+                if (!header.classList.contains("scrollable")) {
+                    header.classList.add("scrollable");
+                }
+
+            }
+        });
+    </script>
+@endpush
