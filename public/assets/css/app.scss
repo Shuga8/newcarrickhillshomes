@@ -266,6 +266,29 @@ header {
     }
 }
 
+.apartments {
+    .apartment {
+        .img {
+            img {
+                transition: all 0.3s ease-in-out;
+            }
+        }
+
+        &:hover {
+            .img {
+                img {
+                    transform: scale(1.1);
+                    transition: all 0.3s ease-in-out;
+                }
+            }
+        }
+
+        .apartment-facilities {
+            box-shadow: 0px 2px 1px #fefefe;
+        }
+    }
+}
+
 @media (max-width: 750px) {
     header {
         .links {
