@@ -59,6 +59,31 @@
                 }
 
             }
+
+            if (header.classList.contains("scrollable")) {
+                if (
+                    localStorage.getItem("color-theme") === "dark" ||
+                    (!("color-theme" in localStorage) &&
+                        window.matchMedia("(prefers-color-scheme: dark)").matches)
+                ) {
+                    header.classList.remove("shadow", "dark:shadow-[#ddd]");
+                    header.classList.add("dark:shadow", "dark:shadow-[#333]");
+                } else {
+                    header.classList.add("shadow", "dark:shadow-[#ddd]");
+                    header.classList.remove("dark:shadow", "dark:shadow-[#333]");
+                }
+            } else {
+                if (
+                    localStorage.getItem("color-theme") === "dark" ||
+                    (!("color-theme" in localStorage) &&
+                        window.matchMedia("(prefers-color-scheme: dark)").matches)
+                ) {
+
+                    header.classList.remove("dark:shadow", "dark:shadow-[#333]");
+                } else {
+                    header.classList.remove("shadow", "dark:shadow-[#ddd]");
+                }
+            }
         });
     </script>
 @endpush
