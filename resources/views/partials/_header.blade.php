@@ -7,7 +7,7 @@
     <div class="links">
         <a href="{{ route('home') }}" class="text-cyan-700 dark:text-yellow-500">Home</a>
         <a href="{{ route('apartments') }}" class="text-cyan-700 dark:text-yellow-500">Apartments</a>
-        <a href="" class="text-cyan-700 dark:text-yellow-500">Gallery</a>
+        <a href="{{ route('gallery') }}" class="text-cyan-700 dark:text-yellow-500">Gallery</a>
         <a href="" class="text-cyan-700 dark:text-yellow-500">Locations</a>
     </div>
 

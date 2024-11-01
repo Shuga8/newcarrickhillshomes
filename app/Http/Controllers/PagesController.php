@@ -25,4 +25,13 @@ class PagesController extends Controller
 
         return view('apartments')->with($data);
     }
+
+    public function gallery()
+    {
+        $data = [
+            'title' => 'Our Gallery'
+        ];
+
+        return view('gallery')->with($data);
+    }
 }
