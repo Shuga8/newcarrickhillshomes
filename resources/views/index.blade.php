@@ -100,7 +100,7 @@
                 elit. Minus, natus officiis nihil reprehenderit exercitationem harum recusandae molestiae. Cumque
                 mollitia rerum, suscipit id consequatur unde corporis quidem recusandae. Magni, officiis eveniet.</div>
 
-            <a href=""
+            <a href="{{ route('contact') }}"
                 class="book-btn w-fit py-[16px] text-sm px-14 text-white bg-yellow-600 hover:text-yellow-600 uppercase border-[2px] border-white dark:border-[#121212] hover:border-yellow-600 dark:hover:border-yellow-600 hover:bg-transparent mx-auto md:mx-0">Book
                 Now</a>
 
@@ -129,7 +129,7 @@
             <div class="slide-up basis-[285px] h-[320px] grow md:grow-0">
 
                 <div class="anchor">
-                    <a href="">
+                    <a href="{{ route('apartments') }}">
                         <div class="img-1">
                         </div>
                     </a>
@@ -143,9 +143,9 @@
                         Sized Beds,
                         2 rooms</p>
 
-                    <button
+                    <a href="{{ route('contact') }}"
                         class="px-8 py-2.5 border-[2px] font-medium transition-colors ease-in-out duration-300 border-cyan-600 text-cyan-600 hover:bg-cyan-600 hover:text-white w-fit mx-auto mt-3.5 uppercase">Book
-                        Now</button>
+                        Now</a>
                 </div>
 
             </div>
@@ -167,9 +167,9 @@
                         Sized Bed,
                         1 rooms</p>
 
-                    <button
+                    <a href="{{ route('contact') }}"
                         class="px-8 py-2.5 border-[2px] font-medium transition-colors ease-in-out duration-300 border-cyan-600 text-cyan-600 hover:bg-cyan-600 hover:text-white w-fit mx-auto mt-3.5 uppercase">Book
-                        Now</button>
+                        Now</a>
                 </div>
 
             </div>
@@ -191,9 +191,9 @@
                         Sized Beds,
                         3 rooms</p>
 
-                    <button
+                    <a href="{{ route('contact') }}"
                         class="px-8 py-2.5 border-[2px] font-medium transition-colors ease-in-out duration-300 border-cyan-600 text-cyan-600 hover:bg-cyan-600 hover:text-white w-fit mx-auto mt-3.5 uppercase">Book
-                        Now</button>
+                        Now</a>
                 </div>
 
             </div>
@@ -216,9 +216,9 @@
                         Sized Beds,
                         6 rooms</p>
 
-                    <button
+                    <a href="{{ route('contact') }}"
                         class="px-8 py-2.5 border-[2px] font-medium transition-colors ease-in-out duration-300 border-cyan-600 text-cyan-600 hover:bg-cyan-600 hover:text-white w-fit mx-auto mt-3.5 uppercase">Book
-                        Now</button>
+                        Now</a>
                 </div>
 
             </div>
@@ -249,7 +249,8 @@
                 </div>
 
                 <div class="icon w-[100px] h-[100px]">
-                    <img src="{{ asset('assets/icons/rate.png') }}" class="w-full h-full object-contain" alt="">
+                    <img src="{{ asset('assets/icons/rate.png') }}" class="w-full h-full object-contain"
+                        alt="">
                 </div>
 
                 <h5 class="old-standard uppercase text-[#222] dark:text-gray-200 font-[400] text-[24px]">Good Standard
@@ -272,7 +273,8 @@
                 </div>
 
                 <div class="icon w-[100px] h-[100px]">
-                    <img src="{{ asset('assets/icons/mute.png') }}" class="w-full h-full object-contain" alt="">
+                    <img src="{{ asset('assets/icons/mute.png') }}" class="w-full h-full object-contain"
+                        alt="">
                 </div>
 
                 <h5 class="old-standard uppercase text-[#222] dark:text-gray-200 font-[400] text-[24px]">Quiet Hours
@@ -295,7 +297,8 @@
                 </div>
 
                 <div class="icon w-[100px] h-[100px]">
-                    <img src="{{ asset('assets/icons/map.png') }}" class="w-full h-full object-contain" alt="">
+                    <img src="{{ asset('assets/icons/map.png') }}" class="w-full h-full object-contain"
+                        alt="">
                 </div>
 
                 <h5 class="old-standard uppercase text-[#222] dark:text-gray-200 font-[400] text-[24px]">Best Locations
