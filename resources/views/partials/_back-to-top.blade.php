@@ -6,5 +6,9 @@
 @push('script')
     <script>
         "use strict";
+
+        document.querySelector(".back-to-top").addEventListener("click", function() {
+            window.scrollTo(0, 0);
+        })
     </script>
 @endpush

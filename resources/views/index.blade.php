@@ -115,9 +115,11 @@
             & Rooms
         </h4>
 
-        <a href=""
+        <a href="{{ route('apartments') }}"
             class="view-more w-fit px-2 mb-6 text-center flex flex-row gap-x-1 place-items-center mx-auto text-slate-400 dark:text-yellow-600 hover:text-yellow-500 dark:hover:text-white font-[500] text-[14px]"><span>View
-                More</span><i class="fa-solid fa-arrow-right"></i></a>
+                More</span><i class="fa-solid fa-arrow-right"></i>
+        </a>
+
 
         <div
             class="price-facilities w-full px-5 py-6 md:px-24 md:py-8 lg:px-28 flex justify-center flex-wrap gap-x-5 gap-y-4 ">
@@ -139,9 +141,9 @@
                         Sized Beds,
                         2 rooms</p>
 
-                    <p class=" text-slate-400 dark:text-slate-400 text-[15px]"><span
-                            class="amount-ngn text-cyan-700 dark:text-cyan-600 font-semibold">45672</span> / night
-                    </p>
+                    <button
+                        class="px-8 py-2.5 border-[2px] font-medium transition-colors ease-in-out duration-300 border-cyan-600 text-cyan-600 hover:bg-cyan-600 hover:text-white w-fit mx-auto mt-3.5 uppercase">Book
+                        Now</button>
                 </div>
 
             </div>
@@ -163,9 +165,9 @@
                         Sized Bed,
                         1 rooms</p>
 
-                    <p class=" text-slate-400 dark:text-slate-400 text-[15px]"><span
-                            class="amount-ngn text-cyan-700 dark:text-cyan-600 font-semibold">50720</span> / night
-                    </p>
+                    <button
+                        class="px-8 py-2.5 border-[2px] font-medium transition-colors ease-in-out duration-300 border-cyan-600 text-cyan-600 hover:bg-cyan-600 hover:text-white w-fit mx-auto mt-3.5 uppercase">Book
+                        Now</button>
                 </div>
 
             </div>
@@ -187,9 +189,9 @@
                         Sized Beds,
                         3 rooms</p>
 
-                    <p class=" text-slate-400 dark:text-slate-400 text-[15px]"><span
-                            class="amount-ngn text-cyan-700 dark:text-cyan-600 font-semibold">110000</span> / night
-                    </p>
+                    <button
+                        class="px-8 py-2.5 border-[2px] font-medium transition-colors ease-in-out duration-300 border-cyan-600 text-cyan-600 hover:bg-cyan-600 hover:text-white w-fit mx-auto mt-3.5 uppercase">Book
+                        Now</button>
                 </div>
 
             </div>
@@ -212,9 +214,9 @@
                         Sized Beds,
                         6 rooms</p>
 
-                    <p class=" text-slate-400 dark:text-slate-400 text-[15px]"><span
-                            class="amount-ngn text-cyan-700 dark:text-cyan-600 font-semibold">170000</span> / night
-                    </p>
+                    <button
+                        class="px-8 py-2.5 border-[2px] font-medium transition-colors ease-in-out duration-300 border-cyan-600 text-cyan-600 hover:bg-cyan-600 hover:text-white w-fit mx-auto mt-3.5 uppercase">Book
+                        Now</button>
                 </div>
 
             </div>
@@ -291,8 +293,7 @@
                 </div>
 
                 <div class="icon w-[100px] h-[100px]">
-                    <img src="{{ asset('assets/icons/map.png') }}" class="w-full h-full object-contain"
-                        alt="">
+                    <img src="{{ asset('assets/icons/map.png') }}" class="w-full h-full object-contain" alt="">
                 </div>
 
                 <h5 class="old-standard uppercase text-[#222] dark:text-gray-200 font-[400] text-[24px]">Best Locations
@@ -402,7 +403,8 @@
         <div class="basis-[150px] md:basis-[220px] h-fit py-4">
 
             <div class="icon w-[100px] h-[100px] text-white mb-3">
-                <img src="{{ asset('assets/icons/tools.png') }}" class="w-full h-full object-contain" alt="">
+                <img src="{{ asset('assets/icons/tools.png') }}" class="w-full h-full object-contain"
+                    alt="">
             </div>
 
             <h5 class=" text-white dark:text-white  old-standard"><span class="text-[40px] font-bold">
