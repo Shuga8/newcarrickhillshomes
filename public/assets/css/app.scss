@@ -11,6 +11,12 @@
 
 html {
     scroll-behavior: smooth;
+
+    &.sr {
+        .load-hidden {
+            visibility: hidden;
+        }
+    }
 }
 
 *.old-standard {

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="sr">
 
     <head>
         <meta charset="UTF-8">
@@ -24,6 +24,13 @@
         <!--  Tailwind CSS Resources-->
         @vite('resources/js/app.js')
         <link rel="stylesheet" href="{{ asset('assets/css/app.css') }}" type="text/css">
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script>
+            ScrollReveal({
+                reset: true
+            });
+        </script>
+        @stack('head-script')
     </head>
 
     <body class="dark:bg-[#121212] bg-white">

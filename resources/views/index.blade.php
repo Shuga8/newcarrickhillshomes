@@ -42,11 +42,11 @@
     </div>
 
     <section
-        class="about-us flex flex-wrap justify-center pt-32 pb-16 px-4 md:px-32 lg:px-48 w-full bg-white dark:bg-[#121212]">
+        class="about-us flex flex-wrap justify-center pt-[300px] pb-16 px-4 md:px-32 lg:px-48 w-full bg-white dark:bg-[#121212]">
         <div class="content-section flex flex-wrap gap-x-7 justify-center gap-y-3 md:gap-y-0 ">
 
             <div
-                class="shadow shadow-gray-300 dark:shadow-gray-600 w-[230px] h-[270px] grow md:grow-0 my-0 md:mt-[-30px] px-3 dark:bg-[#7a5b3a] py-2 flex flex-col gap-y-4 items-center place-content-center justify-center">
+                class="slide-up shadow shadow-gray-300 dark:shadow-gray-600 w-[230px] h-[270px] grow md:grow-0 my-0 md:mt-[-30px] px-3 dark:bg-[#7a5b3a] py-2 flex flex-col gap-y-4 items-center place-content-center justify-center">
                 <div
                     class="icon w-full h-[80px] flex items-center justify-center text-[3.5rem] text-gray-600 dark:text-gray-100">
                     <i class="fa-solid fa-people-group"></i>
@@ -61,9 +61,9 @@
                 </div>
             </div>
 
-            <div class="w-[230px] h-[300px] grow md:grow-0"></div>
+            <div class="slide-right w-[230px] h-[300px] grow md:grow-0"></div>
 
-            <div class="w-[230px] h-[270px] grow md:grow-0"></div>
+            <div class="slide-right w-[230px] h-[270px] grow md:grow-0"></div>
 
             <div
                 class="bg-cyan-800 dark:bg-cyan-600 w-[230px] h-[250px] grow md:grow-0 flex items-center justify-center flex-col gap-y-4">
@@ -86,7 +86,7 @@
         </div>
 
         <div
-            class="about-hero relative w-full py-8 px-3 md:py-10 md:px-6 flex flex-col gap-y-[2rem] md:gap-y-[1.5rem] place-content-center justify-center">
+            class="slide-left about-hero relative w-full py-8 px-3 md:py-10 md:px-6 flex flex-col gap-y-[2rem] md:gap-y-[1.5rem] place-content-center justify-center">
 
             <h3 class="text-gray-500 dark:text-gray-200 uppercase text-[14px] text-center md:text-left">ABOUT US</h3>
 
@@ -126,7 +126,7 @@
         <div
             class="price-facilities w-full px-5 py-6 md:px-24 md:py-8 lg:px-28 flex justify-center flex-wrap gap-x-5 gap-y-4 ">
 
-            <div class="basis-[285px] h-[320px] grow md:grow-0">
+            <div class="slide-up basis-[285px] h-[320px] grow md:grow-0">
 
                 <div class="anchor">
                     <a href="">
@@ -150,7 +150,7 @@
 
             </div>
 
-            <div class="basis-[285px] h-[320px] grow md:grow-0">
+            <div class="slide-up  basis-[285px] h-[320px] grow md:grow-0">
 
                 <div class="anchor">
                     <a href="">
@@ -174,7 +174,7 @@
 
             </div>
 
-            <div class="basis-[285px] h-[320px] grow md:grow-0">
+            <div class="slide-up basis-[285px] h-[320px] grow md:grow-0">
 
                 <div class="anchor">
                     <a href="">
@@ -198,7 +198,7 @@
 
             </div>
 
-            <div class="basis-[285px] h-[320px] grow md:grow-0">
+            <div class="slide-up basis-[285px] h-[320px] grow md:grow-0">
 
                 <div class="anchor">
                     <a href="">
@@ -241,7 +241,7 @@
         <div class="features w-full px-5 py-6 md:px-24 md:py-8 lg:px-28 flex justify-center flex-wrap gap-x-8 gap-y-7 ">
 
             <div
-                class="relative basis-[350px] h-[370px] shrink md:shrink-0 grow md:grow-0 flex flex-col gap-y-8 place-content-center px-6 md:px-12 py-18">
+                class="slide-up  relative basis-[350px] h-[370px] shrink md:shrink-0 grow md:grow-0 flex flex-col gap-y-8 place-content-center px-6 md:px-12 py-18">
 
                 <div
                     class="absolute top-0 right-0 w-[35%] h-[100px] flex justify-center items-center text-[6rem] text-slate-100 dark:text-slate-700">
@@ -264,7 +264,7 @@
             </div>
 
             <div
-                class="relative basis-[350px] h-[370px] shrink md:shrink-0 grow md:grow-0 flex flex-col gap-y-8 place-content-center px-6 md:px-12 py-18">
+                class="slide-up relative basis-[350px] h-[370px] shrink md:shrink-0 grow md:grow-0 flex flex-col gap-y-8 place-content-center px-6 md:px-12 py-18">
 
                 <div
                     class="absolute top-0 right-0 w-[35%] h-[100px] flex justify-center items-center text-[6rem] text-slate-100 dark:text-slate-700">
@@ -287,7 +287,7 @@
             </div>
 
             <div
-                class="relative basis-[350px] h-[370px] shrink md:shrink-0 grow md:grow-0 flex flex-col gap-y-8 place-content-center px-6 md:px-12 py-18">
+                class="slide-up relative basis-[350px] h-[370px] shrink md:shrink-0 grow md:grow-0 flex flex-col gap-y-8 place-content-center px-6 md:px-12 py-18">
 
                 <div
                     class="absolute top-0 right-0 w-[35%] h-[100px] flex justify-center items-center text-[6rem] text-slate-100 dark:text-slate-700">
@@ -310,7 +310,7 @@
             </div>
 
             <div
-                class="relative basis-[350px] h-[370px] shrink md:shrink-0 grow md:grow-0 flex flex-col gap-y-8 place-content-center px-6 md:px-12 py-18">
+                class="slide-up relative basis-[350px] h-[370px] shrink md:shrink-0 grow md:grow-0 flex flex-col gap-y-8 place-content-center px-6 md:px-12 py-18">
 
                 <div
                     class="absolute top-0 right-0 w-[35%] h-[100px] flex justify-center items-center text-[6rem] text-slate-100 dark:text-slate-700">
@@ -335,7 +335,7 @@
             </div>
 
             <div
-                class="relative basis-[350px] h-[370px] shrink md:shrink-0 grow md:grow-0 flex flex-col gap-y-8 place-content-center px-6 md:px-12 py-18">
+                class="slide-up relative basis-[350px] h-[370px] shrink md:shrink-0 grow md:grow-0 flex flex-col gap-y-8 place-content-center px-6 md:px-12 py-18">
 
                 <div
                     class="absolute top-0 right-0 w-[35%] h-[100px] flex justify-center items-center text-[6rem] text-slate-100 dark:text-slate-700">
@@ -360,7 +360,7 @@
             </div>
 
             <div
-                class="relative basis-[350px] h-[370px] shrink md:shrink-0 grow md:grow-0 flex flex-col gap-y-8 place-content-center px-6 md:px-12 py-18">
+                class="slide-up relative basis-[350px] h-[370px] shrink md:shrink-0 grow md:grow-0 flex flex-col gap-y-8 place-content-center px-6 md:px-12 py-18">
 
                 <div
                     class="absolute top-0 right-0 w-[35%] h-[100px] flex justify-center items-center text-[6rem] text-slate-100 dark:text-slate-700">
@@ -495,6 +495,50 @@
 
                 amount.textContent = former
             });
+        </script>
+        <script>
+            var slideUp = {
+                distance: '150%',
+                origin: 'bottom',
+                opacity: null,
+                reset: false,
+                useDelay: 'once',
+                desktop: true,
+                mobile: true,
+                viewOffset: {
+                    top: 10
+                }
+            };
+
+            var slideRight = {
+                distance: '150%',
+                origin: 'left',
+                opacity: null,
+                reset: false,
+                useDelay: 'once',
+                desktop: true,
+                mobile: true,
+                viewOffset: {
+                    top: 10
+                }
+            };
+
+            var slideLeft = {
+                distance: '150%',
+                origin: 'right',
+                opacity: null,
+                reset: false,
+                useDelay: 'once',
+                desktop: true,
+                mobile: true,
+                viewOffset: {
+                    top: 10
+                }
+            };
+
+            ScrollReveal().reveal('.slide-up', slideUp);
+            ScrollReveal().reveal('.slide-right', slideRight);
+            ScrollReveal().reveal('.slide-left', slideLeft);
         </script>
     @endpush
 
