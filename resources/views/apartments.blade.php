@@ -16,7 +16,6 @@
 
     </section>
 
-
     <section
         class="apartments-lg  py-24 md:py-24 px-3 flex flex-wrap justify-center gap-y-[200px] bg-gray-100 dark:bg-[#1212]  ">
 
@@ -362,9 +361,6 @@
             </div>
         </div>
     </section>
-
-
-
 
     <section
         class="apartments py-8 md:py-32 px-3 flex flex-wrap justify-center gap-x-14 gap-y-14 bg-gray-100 dark:bg-[#1212]">

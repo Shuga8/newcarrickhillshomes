@@ -8,7 +8,7 @@
         <a href="{{ route('home') }}" class="text-cyan-700 dark:text-yellow-500">Home</a>
         <a href="{{ route('apartments') }}" class="text-cyan-700 dark:text-yellow-500">Apartments</a>
         <a href="{{ route('gallery') }}" class="text-cyan-700 dark:text-yellow-500">Gallery</a>
-        <a href="" class="text-cyan-700 dark:text-yellow-500">Locations</a>
+        {{-- <a href="" class="text-cyan-700 dark:text-yellow-500">Locations</a> --}}
     </div>
 
     <div class="actions">
@@ -23,7 +23,7 @@
             </div>
         </div>
 
-        <a href=""
+        <a href="{{ route('contact') }}"
             class="contact text-cyan-700 dark:text-yellow-500 border border-cyan-700 dark:border-yellow-500 px-4 py-1 hover:bg-cyan-700 hover:text-white dark:hover:bg-yellow-500 dark:hover:text-white">Contact
             Us</a>
 

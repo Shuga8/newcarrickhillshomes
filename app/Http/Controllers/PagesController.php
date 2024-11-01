@@ -34,4 +34,13 @@ class PagesController extends Controller
 
         return view('gallery')->with($data);
     }
+
+    public function contact()
+    {
+        $data = [
+            'title' => 'Contact Us'
+        ];
+
+        return view('contact')->with($data);
+    }
 }
