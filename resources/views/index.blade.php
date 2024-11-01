@@ -4,22 +4,24 @@
 
         <div class="hero-content py-10">
 
-            <p class="hero-label text-center md:text-left text-gray-600 dark:text-gray-400 uppercase font-semibold">
+            <p
+                class="animate__animated animate__bounceInLeft hero-label text-center md:text-left text-gray-600 dark:text-gray-400 uppercase font-semibold">
                 The ultimate luxury experience
             </p>
 
-            <h1 class="text-slate-900 dark:text-yellow-600 capitalize font-bold text-center md:text-left old-standard">
+            <h1
+                class="animate__animated animate__bounceInLeft text-slate-900 dark:text-yellow-600 capitalize font-bold text-center md:text-left old-standard">
                 New Carrick Hills Home
             </h1>
 
             <div class="buttons flex flex-row gap-x-6 mt-5 uppercase justify-center lg:justify-normal">
                 <a href=""
-                    class="py-[16px] text-sm px-10 text-white bg-cyan-600 hover:bg-cyan-700 dark:bg-purple-700 dark:hover:bg-purple-600">
+                    class="animate__animated animate__bounceInUp py-[16px] text-sm px-10 text-white bg-cyan-600 hover:bg-cyan-700 dark:bg-purple-700 dark:hover:bg-purple-600">
                     Take a tour
                 </a>
 
                 <a href=""
-                    class="py-[16px] text-sm px-5 md:px-10 text-gray-600 dark:text-white bg-transparent hover:bg-yellow-600 hover:text-white border-gray-200 border ">
+                    class="animate__animated animate__bounceInUp py-[16px] text-sm px-5 md:px-10 text-gray-600 dark:text-white bg-transparent hover:bg-yellow-600 hover:text-white border-gray-200 border ">
                     Learn More
                 </a>
             </div>
