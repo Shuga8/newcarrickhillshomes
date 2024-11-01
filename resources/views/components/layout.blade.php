@@ -33,6 +33,8 @@
 
         {{ $slot }}
 
+
+        @include('partials._back-to-top')
         <!-- Scripts Resources -->
         <script src="https://cdn.jsdelivr.net/npm/@flaticon/flaticon-uicons@3.3.1/license.min.js"></script>
         @stack('script')

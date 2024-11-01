@@ -289,6 +289,31 @@ header {
     }
 }
 
+.back-to-top {
+    position: fixed;
+    padding-top: 10px;
+    z-index: 20;
+    right: 20px;
+    bottom: -200px;
+    width: 50px;
+    height: 50px;
+    transition: bottom 0.5s ease-in-out;
+    cursor: pointer;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+        transition: all 0.3s ease-in-out;
+    }
+
+    &.active {
+        bottom: 20px;
+        transition: bottom 0.5s ease-in-out;
+    }
+}
+
 @media (max-width: 750px) {
     header {
         .links {

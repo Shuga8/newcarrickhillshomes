@@ -1,7 +1,7 @@
 <header class="bg-white dark:bg-[#121212] ">
 
     <div class="logo">
-        <img src="{{ asset('assets/logo-dark.png') }}" alt="">
+        <img src="{{ asset('assets/logo-light.png') }}" alt="">
     </div>
 
     <div class="links">
@@ -40,6 +40,7 @@
         "use strict";
 
         const header = document.querySelector("header");
+        const backToTop = document.querySelector(".back-to-top");
 
         let previousY = window.scrollY;
 
@@ -49,6 +50,7 @@
             if (currentY < 150) {
                 if (header.classList.contains("scrollable")) {
                     header.classList.remove("scrollable");
+                    backToTop.classList.remove("active");
                 }
             } else {
 
@@ -56,6 +58,11 @@
 
                 if (!header.classList.contains("scrollable")) {
                     header.classList.add("scrollable");
+
+                }
+
+                if (!backToTop.classList.contains("active")) {
+                    backToTop.classList.add("active");
                 }
 
             }
