@@ -47,7 +47,7 @@
                         </p>
 
                         <div class="text-center base:text-left">
-                            <a href=""
+                            <a href="{{ route('contact') }}"
                                 class="px-10 py-3.5 border-[2px] font-medium transition-colors ease-in-out duration-500 border-cyan-600 text-white bg-cyan-600 hover:bg-white hover:text-cyan-600 w-fit uppercase">Book
                                 Now</a>
                         </div>
@@ -218,7 +218,7 @@
                         </p>
 
                         <div class="text-center base:text-left">
-                            <a href=""
+                            <a href="{{ route('contact') }}"
                                 class="px-10 py-3.5 border-[2px] font-medium transition-colors ease-in-out duration-500 border-cyan-600 text-white bg-cyan-600 hover:bg-white hover:text-cyan-600 w-fit uppercase">Book
                                 Now</a>
                         </div>
@@ -384,7 +384,7 @@
             </div>
 
             <div class="content w-full h-[249.2px] bg-white flex flex-col gap-y-6 py-10 px-3">
-                <a href=""
+                <a href="{{ route('contact') }}"
                     class="w-fit mx-auto old-standard text-[1.3rem] text-gray-950 dark:text-stone-700 font-[450] dark:font-semibold">Minimal
                     Duplex
                     Apartment</a>
@@ -394,7 +394,7 @@
                     amet.
                 </div>
 
-                <a href=""
+                <a href="{{ route('contact') }}"
                     class="px-8 py-3.5 border-[2px] font-medium transition-colors ease-in-out duration-300 border-cyan-600 text-cyan-600 hover:bg-cyan-600 hover:text-white w-fit mx-auto mt-3.5 uppercase">Book
                     Now</a>
             </div>
@@ -419,7 +419,7 @@
             </div>
 
             <div class="content w-full h-[249.2px] bg-white flex flex-col gap-y-6 py-10 px-3">
-                <a href=""
+                <a href="{{ route('contact') }}"
                     class="w-fit mx-auto old-standard text-[1.3rem] text-gray-950 dark:text-stone-700 font-[450] dark:font-semibold">Minimal
                     Duplex
                     Apartment</a>
@@ -429,9 +429,9 @@
                     amet.
                 </div>
 
-                <button
-                    class="px-8 py-3.5 border-[2px] font-medium transition-colors ease-in-out duration-300 border-cyan-600 text-cyan-600 hover:bg-cyan-600 hover:text-white w-fit mx-auto mt-3.5 uppercase">Book
-                    Now</button>
+                <a href="{{ route('contact') }}"
+                    class="px-8 py-2.5 border-[2px] font-medium transition-colors ease-in-out duration-300 border-cyan-600 text-cyan-600 hover:bg-cyan-600 hover:text-white w-fit mx-auto mt-3.5 uppercase">Book
+                    Now</a>
             </div>
         </div>
 
@@ -454,7 +454,7 @@
             </div>
 
             <div class="content w-full h-[249.2px] bg-white flex flex-col gap-y-6 py-10 px-3">
-                <a href=""
+                <a href="{{ route('contact') }}"
                     class="w-fit mx-auto old-standard text-[1.3rem] text-gray-950 dark:text-stone-700 font-[450] dark:font-semibold">Minimal
                     Duplex
                     Apartment</a>
@@ -464,9 +464,9 @@
                     amet.
                 </div>
 
-                <button
-                    class="px-8 py-3.5 border-[2px] font-medium transition-colors ease-in-out duration-300 border-cyan-600 text-cyan-600 hover:bg-cyan-600 hover:text-white w-fit mx-auto mt-3.5 uppercase">Book
-                    Now</button>
+                <a href="{{ route('contact') }}"
+                    class="px-8 py-2.5 border-[2px] font-medium transition-colors ease-in-out duration-300 border-cyan-600 text-cyan-600 hover:bg-cyan-600 hover:text-white w-fit mx-auto mt-3.5 uppercase">Book
+                    Now</a>
             </div>
         </div>
 
@@ -489,7 +489,7 @@
             </div>
 
             <div class="content w-full h-[249.2px] bg-white flex flex-col gap-y-6 py-10 px-3">
-                <a href=""
+                <a href="{{ route('contact') }}"
                     class="w-fit mx-auto old-standard text-[1.3rem] text-gray-950 dark:text-stone-700 font-[450] dark:font-semibold">Minimal
                     Duplex
                     Apartment</a>
@@ -499,9 +499,9 @@
                     amet.
                 </div>
 
-                <button
-                    class="px-8 py-3.5 border-[2px] font-medium transition-colors ease-in-out duration-300 border-cyan-600 text-cyan-600 hover:bg-cyan-600 hover:text-white w-fit mx-auto mt-3.5 uppercase">Book
-                    Now</button>
+                <a href="{{ route('contact') }}"
+                    class="px-8 py-2.5 border-[2px] font-medium transition-colors ease-in-out duration-300 border-cyan-600 text-cyan-600 hover:bg-cyan-600 hover:text-white w-fit mx-auto mt-3.5 uppercase">Book
+                    Now</a>
             </div>
         </div>
 
@@ -524,7 +524,7 @@
             </div>
 
             <div class="content w-full h-[249.2px] bg-white flex flex-col gap-y-6 py-10 px-3">
-                <a href=""
+                <a href="{{ route('contact') }}"
                     class="w-fit mx-auto old-standard text-[1.3rem] text-gray-950 dark:text-stone-700 font-[450] dark:font-semibold">Minimal
                     Duplex
                     Apartment</a>
@@ -534,9 +534,9 @@
                     amet.
                 </div>
 
-                <button
-                    class="px-8 py-3.5 border-[2px] font-medium transition-colors ease-in-out duration-300 border-cyan-600 text-cyan-600 hover:bg-cyan-600 hover:text-white w-fit mx-auto mt-3.5 uppercase">Book
-                    Now</button>
+                <a href="{{ route('contact') }}"
+                    class="px-8 py-2.5 border-[2px] font-medium transition-colors ease-in-out duration-300 border-cyan-600 text-cyan-600 hover:bg-cyan-600 hover:text-white w-fit mx-auto mt-3.5 uppercase">Book
+                    Now</a>
             </div>
         </div>
 
@@ -559,7 +559,7 @@
             </div>
 
             <div class="content w-full h-[249.2px] bg-white flex flex-col gap-y-6 py-10 px-3">
-                <a href=""
+                <a href="{{ route('contact') }}"
                     class="w-fit mx-auto old-standard text-[1.3rem] text-gray-950 dark:text-stone-700 font-[450] dark:font-semibold">Minimal
                     Duplex
                     Apartment</a>
@@ -569,9 +569,9 @@
                     amet.
                 </div>
 
-                <button
-                    class="px-8 py-3.5 border-[2px] font-medium transition-colors ease-in-out duration-300 border-cyan-600 text-cyan-600 hover:bg-cyan-600 hover:text-white w-fit mx-auto mt-3.5 uppercase">Book
-                    Now</button>
+                <a href="{{ route('contact') }}"
+                    class="px-8 py-2.5 border-[2px] font-medium transition-colors ease-in-out duration-300 border-cyan-600 text-cyan-600 hover:bg-cyan-600 hover:text-white w-fit mx-auto mt-3.5 uppercase">Book
+                    Now</a>
             </div>
         </div>
 
@@ -594,7 +594,7 @@
             </div>
 
             <div class="content w-full h-[249.2px] bg-white flex flex-col gap-y-6 py-10 px-3">
-                <a href=""
+                <a href="{{ route('contact') }}"
                     class="w-fit mx-auto old-standard text-[1.3rem] text-gray-950 dark:text-stone-700 font-[450] dark:font-semibold">Minimal
                     Duplex
                     Apartment</a>
@@ -604,9 +604,9 @@
                     amet.
                 </div>
 
-                <button
-                    class="px-8 py-3.5 border-[2px] font-medium transition-colors ease-in-out duration-300 border-cyan-600 text-cyan-600 hover:bg-cyan-600 hover:text-white w-fit mx-auto mt-3.5 uppercase">Book
-                    Now</button>
+                <a href="{{ route('contact') }}"
+                    class="px-8 py-2.5 border-[2px] font-medium transition-colors ease-in-out duration-300 border-cyan-600 text-cyan-600 hover:bg-cyan-600 hover:text-white w-fit mx-auto mt-3.5 uppercase">Book
+                    Now</a>
             </div>
         </div>
 
@@ -629,7 +629,7 @@
             </div>
 
             <div class="content w-full h-[249.2px] bg-white flex flex-col gap-y-6 py-10 px-3">
-                <a href=""
+                <a href="{{ route('contact') }}"
                     class="w-fit mx-auto old-standard text-[1.3rem] text-gray-950 dark:text-stone-700 font-[450] dark:font-semibold">Minimal
                     Duplex
                     Apartment</a>
@@ -639,9 +639,9 @@
                     amet.
                 </div>
 
-                <button
-                    class="px-8 py-3.5 border-[2px] font-medium transition-colors ease-in-out duration-300 border-cyan-600 text-cyan-600 hover:bg-cyan-600 hover:text-white w-fit mx-auto mt-3.5 uppercase">Book
-                    Now</button>
+                <a href="{{ route('contact') }}"
+                    class="px-8 py-2.5 border-[2px] font-medium transition-colors ease-in-out duration-300 border-cyan-600 text-cyan-600 hover:bg-cyan-600 hover:text-white w-fit mx-auto mt-3.5 uppercase">Book
+                    Now</a>
             </div>
         </div>
 
@@ -664,7 +664,7 @@
             </div>
 
             <div class="content w-full h-[249.2px] bg-white flex flex-col gap-y-6 py-10 px-3">
-                <a href=""
+                <a href="{{ route('contact') }}"
                     class="w-fit mx-auto old-standard text-[1.3rem] text-gray-950 dark:text-stone-700 font-[450] dark:font-semibold">Minimal
                     Duplex
                     Apartment</a>
@@ -674,9 +674,9 @@
                     amet.
                 </div>
 
-                <button
-                    class="px-8 py-3.5 border-[2px] font-medium transition-colors ease-in-out duration-300 border-cyan-600 text-cyan-600 hover:bg-cyan-600 hover:text-white w-fit mx-auto mt-3.5 uppercase">Book
-                    Now</button>
+                <a href="{{ route('contact') }}"
+                    class="px-8 py-2.5 border-[2px] font-medium transition-colors ease-in-out duration-300 border-cyan-600 text-cyan-600 hover:bg-cyan-600 hover:text-white w-fit mx-auto mt-3.5 uppercase">Book
+                    Now</a>
             </div>
         </div>
 
