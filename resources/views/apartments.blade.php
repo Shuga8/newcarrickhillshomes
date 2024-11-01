@@ -18,16 +18,16 @@
 
 
     <section
-        class="apartments-lg  py-24 md:py-24 px-3 flex flex-wrap justify-center gap-y-14 bg-gray-100 dark:bg-[#1212]"">
+        class="apartments-lg  py-24 md:py-24 px-3 flex flex-wrap justify-center gap-y-[200px] bg-gray-100 dark:bg-[#1212]  ">
 
-        <div class="apartment relative w-[90%] base:w-[75%] h-[75dvh] base:h-[100dvh] ">
+        <div class="apartment relative w-[90%] base:w-[75%] h-[75vh] base:h-[100dvh] mb-[130px] base:mb-[20px]">
 
             <div class="img w-full h-[45%] base:h-[60%] bg-white">
                 <img src="{{ asset('assets/IMG_3653.jpeg') }}" class="w-full h-full object-cover" alt="">
             </div>
 
             <div
-                class="content w-[90%] z-[2] base:w-[90%] h-[65dvh] base:h-[70dvh] absolute bottom-[35%] base:bottom-[65%] left-[50%] translate-x-[-50%] translate-y-[60%] base:translate-y-[125%] bg-white dark:bg-slate-200 border-t-[7px] border-cyan-600 dark:border-yellow-600 px-6 md:px-16 py-16">
+                class="content w-[90%] z-[2] base:w-[90%] h-fit absolute bottom-[20%] base:bottom-[65%] left-[50%] translate-x-[-50%] translate-y-[60%] base:translate-y-[125%] bg-white dark:bg-slate-200 border-t-[7px] border-cyan-600 dark:border-yellow-600 px-6 md:px-16 py-4 base:py-16">
 
                 <h2 class="uppercase text-gray-500 font-semibold tracking-[3px] text-center mb-4">SIngle Bed</h2>
 
@@ -155,6 +155,177 @@
 
                             <span class="text-gray-500 capitalize">
                                 Single Bed
+                            </span>
+
+                        </div>
+
+                        <div
+                            class="flex flex-row gap-x-3.5 place-content-center text-[12px] base:text-[14px] h-fit w-fit justify-start">
+
+                            <span class="text-stone-700">
+                                <i class="fi fi-rr-cart-shopping-fast"></i>
+                            </span>
+
+                            <span class="text-gray-500 capitalize">
+                                Shop Near
+                            </span>
+
+                        </div>
+
+                        <div
+                            class="flex flex-row gap-x-3.5 place-content-center text-[12px] base:text-[14px] h-fit w-fit justify-start">
+
+                            <span class="text-stone-700">
+                                <i class="fi fi-br-toilet-paper-blank"></i>
+                            </span>
+
+                            <span class="text-gray-500 capitalize">
+                                Towel
+                            </span>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="apartment relative w-[90%] base:w-[75%] h-[75vh] base:h-[100dvh] mb-[200px] base:mb-[20px]">
+
+            <div class="img w-full h-[45%] base:h-[60%] bg-white">
+                <img src="{{ asset('assets/IMG_3698.jpeg') }}" class="w-full h-full object-cover" alt="">
+            </div>
+
+            <div
+                class="content w-[90%] z-[2] base:w-[90%] h-fit absolute bottom-[20%] base:bottom-[65%] left-[50%] translate-x-[-50%] translate-y-[60%] base:translate-y-[125%] bg-white dark:bg-slate-200 border-t-[7px] border-cyan-600 dark:border-yellow-600 px-6 md:px-16 py-4 base:py-16">
+
+                <h2 class="uppercase text-gray-500 font-semibold tracking-[3px] text-center mb-4">Double Bed</h2>
+
+                <h3 class="old-standard text-[24px] base:text-[40px] text-black text-center mb-6">Luxury Double Bed</h3>
+
+                <hr class="border-[1px] border-gray-200 " />
+
+                <div class="inner w-full grid grid-cols-1 base:grid-cols-2 justify-center gap-x-12 gap-y-12 py-10">
+
+                    <div class="w-fit">
+
+                        <p
+                            class="text-[12px] base:text-[14px] leading-[1.4] base:leading-[1.9] base-[18px] text-gray-500 mb-7 md:mb-12">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam distinctio illo sint
+                            reprehenderit molestiae ducimus odio natus quasi velit cum, dolorum quos voluptates facere
+                            nobis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, eaque?
+
+                        </p>
+
+                        <div class="text-center base:text-left">
+                            <a href=""
+                                class="px-10 py-3.5 border-[2px] font-medium transition-colors ease-in-out duration-500 border-cyan-600 text-white bg-cyan-600 hover:bg-white hover:text-cyan-600 w-fit uppercase">Book
+                                Now</a>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-2 grid-rows-5 gap-y-4 base:gap-y-6 gap-x-4 ">
+                        <div
+                            class="flex flex-row gap-x-3.5 place-content-center justify-start text-[12px] base:text-[14px] w-fit h-fit ">
+
+                            <span class="text-stone-700">
+                                <i class="fi fi-rr-bath"></i>
+                            </span>
+
+                            <span class="text-gray-500 capitalize">
+                                Air Conditioner
+                            </span>
+
+                        </div>
+
+                        <div
+                            class="flex flex-row gap-x-3.5 place-content-center text-[12px] base:text-[14px] h-fit w-fit justify-start">
+
+                            <span class="text-stone-700">
+                                <i class="fi fi-rr-wifi"></i>
+                            </span>
+
+                            <span class="text-gray-500 capitalize">
+                                High Speed Wifi
+                            </span>
+
+                        </div>
+
+                        <div
+                            class="flex flex-row gap-x-3.5 place-content-center justify-start text-[12px] base:text-[14px] h-fit w-fit">
+
+                            <span class="text-stone-700">
+                                <i class="fi fi-rs-room-service"></i>
+                            </span>
+
+                            <span class="text-gray-500 capitalize">
+                                Breakfast
+                            </span>
+
+                        </div>
+
+                        <div
+                            class="flex flex-row gap-x-3.5 place-content-center text-[12px] base:text-[14px] h-fit w-fit justify-start">
+
+                            <span class="text-stone-700">
+                                <i class="fi fi-rs-microwave"></i>
+                            </span>
+
+                            <span class="text-gray-500 capitalize">
+                                Kitchen
+                            </span>
+
+                        </div>
+
+                        <div
+                            class="flex flex-row gap-x-3.5 place-content-center text-[12px] base:text-[14px] h-fit w-fit justify-start">
+
+                            <span class="text-stone-700">
+                                <i class="fi fi-rr-broom"></i>
+                            </span>
+
+                            <span class="text-gray-500 capitalize">
+                                Cleaning
+                            </span>
+
+                        </div>
+
+                        <div
+                            class="flex flex-row gap-x-3.5 place-content-center text-[12px] base:text-[14px] h-fit w-fit justify-start">
+
+                            <span class="text-stone-700">
+                                <i class="fi fi-rr-shower"></i>
+                            </span>
+
+                            <span class="text-gray-500 capitalize">
+                                Shower
+                            </span>
+
+                        </div>
+
+                        <div
+                            class="flex flex-row gap-x-3.5 place-content-center text-[12px] base:text-[14px] h-fit w-fit justify-start">
+
+                            <span class="text-stone-700">
+                                <i class="fi fi-rr-grocery-basket"></i>
+                            </span>
+
+                            <span class="text-gray-500 capitalize">
+                                Grocery
+                            </span>
+
+                        </div>
+
+                        <div
+                            class="flex flex-row gap-x-3.5 place-content-center text-[12px] base:text-[14px] h-fit w-fit justify-start">
+
+                            <span class="text-stone-700">
+                                <i class="fi fi-rr-bed-alt"></i>
+                            </span>
+
+                            <span class="text-gray-500 capitalize">
+                                Double Bed
                             </span>
 
                         </div>

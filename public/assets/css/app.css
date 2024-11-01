@@ -269,6 +269,11 @@ header.scrollable {
     padding-top: 170px;
   }
 }
+@media (max-height: 720px) {
+  .apartments-lg .apartment {
+    height: 145dvh;
+  }
+}
 @media (max-width: 768px) {
   .about-us {
     flex-direction: column;
