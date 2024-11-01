@@ -33,7 +33,7 @@
 
                 <h3 class="old-standard text-[24px] base:text-[40px] text-black text-center mb-6">Luxury Single Bed</h3>
 
-                <hr class="border-[1px] border-gray-200 " />
+                <hr class="border-[1px] border-gray-200 dark:border-gray-600 " />
 
                 <div class="inner w-full grid grid-cols-1 base:grid-cols-2 justify-center gap-x-12 gap-y-12 py-10">
 
@@ -204,7 +204,7 @@
 
                 <h3 class="old-standard text-[24px] base:text-[40px] text-black text-center mb-6">Luxury Double Bed</h3>
 
-                <hr class="border-[1px] border-gray-200 " />
+                <hr class="border-[1px] border-gray-200 dark:border-gray-600 " />
 
                 <div class="inner w-full grid grid-cols-1 base:grid-cols-2 justify-center gap-x-12 gap-y-12 py-10">
 
