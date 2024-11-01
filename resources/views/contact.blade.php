@@ -86,7 +86,7 @@
             </form>
         </div>
 
-        <div class="map bg-transparent h-[inherit]">
+        <div class="map bg-transparent h-[500px] base:h-full">
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.723522492329!2d3.264918775040549!3d6.556544693436565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8ff012249dcf%3A0x2d55a84508a96668!2s3%20Femi%20Akinfolarin%20St%2C%20Ikotun%2C%20Lagos%20102213%2C%20Lagos!5e0!3m2!1sen!2sng!4v1730474620846!5m2!1sen!2sng"
                 width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"

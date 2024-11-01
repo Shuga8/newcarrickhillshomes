@@ -15,12 +15,12 @@
             </h1>
 
             <div class="buttons flex flex-row gap-x-6 mt-5 uppercase justify-center lg:justify-normal">
-                <a href=""
+                <a href="{{ route('apartments') }}"
                     class="animate__animated animate__bounceInUp py-[16px] text-sm px-10 text-white bg-cyan-600 hover:bg-cyan-700 dark:bg-purple-700 dark:hover:bg-purple-600">
                     Take a tour
                 </a>
 
-                <a href=""
+                <a href="{{ route('contact') }}"
                     class="animate__animated animate__bounceInUp py-[16px] text-sm px-5 md:px-10 text-gray-600 dark:text-white bg-transparent hover:bg-yellow-600 hover:text-white border-gray-200 border ">
                     Learn More
                 </a>
