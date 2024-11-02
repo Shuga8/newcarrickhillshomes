@@ -49,3 +49,10 @@ themeToggleBtn.addEventListener("click", function () {
         }
     }
 });
+
+const apartments = [
+    {
+        title: "Luxury Single Bed",
+        img: "",
+    },
+];

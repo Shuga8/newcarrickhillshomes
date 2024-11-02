@@ -2,10 +2,13 @@
 
 namespace App\Http\Controllers;
 
+use App\Traits\Responses;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Validator;
 
 class PagesController extends Controller
 {
+    use Responses;
     public function index()
     {
         $data = [
@@ -15,7 +18,10 @@ class PagesController extends Controller
         return view('index')->with($data);
     }
 
-    public function subscribe(Request $request) {}
+    public function subscribe(Request $request)
+    {
+        return $this->success("Continue");
+    }
 
     public function listings()
     {
@@ -54,5 +60,16 @@ class PagesController extends Controller
         return view('contact')->with($data);
     }
 
-    public function send(Request $request) {}
+    public function send(Request $request)
+    {
+
+        return $this->success("Continue");
+        // $validator = Validator::make($request->all(), [
+        //     'email' => ['required', 'string', 'email', 'unique:subscribers,email']
+        // ]);
+
+        // if($validator->fails()){
+
+        // }
+    }
 }
