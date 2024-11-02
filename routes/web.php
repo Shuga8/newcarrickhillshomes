@@ -8,6 +8,13 @@ Route::get('/apartments', [PagesController::class, 'listings'])->name('apartment
 Route::get('/apartment/{index}', [PagesController::class, 'single'])->name('apartment');
 Route::get('/gallery', [PagesController::class, 'gallery'])->name('gallery');
 Route::get('/contact', [PagesController::class, 'contact'])->name('contact');
+Route::get('/render', function () {
+    $data = [
+        'email' => 'lotocharles8@mail.com'
+    ];
+
+    return new App\Mail\Subscriber($data);
+});
 
 /** Post Requests */
 Route::post('/subscribe', [PagesController::class, 'subscribe'])->name('subscribe');

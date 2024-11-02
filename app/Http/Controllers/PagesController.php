@@ -2,8 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Subscriber;
 use App\Traits\Responses;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Validator;
 
 class PagesController extends Controller
@@ -20,7 +22,29 @@ class PagesController extends Controller
 
     public function subscribe(Request $request)
     {
-        return $this->success("Continue");
+        $validator = Validator::make($request->all(), [
+            'email' => ['required', 'string', 'email', 'unique:subscribers,email']
+        ]);
+
+        if ($validator->fails()) {
+            return $this->error($validator->errors()->first());
+        }
+
+        try {
+
+            DB::beginTransaction();
+
+            $subscriber = new Subscriber();
+            $subscriber->email = $request->email;
+            $subscriber->save();
+
+            DB::commit();
+            return $this->success("Subscription successfull &check;");
+        } catch (\Exception $e) {
+
+            DB::rollBack();
+            return $this->error($e->getMessage());
+        }
     }
 
     public function listings()
@@ -62,14 +86,6 @@ class PagesController extends Controller
 
     public function send(Request $request)
     {
-
         return $this->success("Continue");
-        // $validator = Validator::make($request->all(), [
-        //     'email' => ['required', 'string', 'email', 'unique:subscribers,email']
-        // ]);
-
-        // if($validator->fails()){
-
-        // }
     }
 }

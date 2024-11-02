@@ -1,6 +1,6 @@
 @if (session()->has('error'))
     <div id="error-toast"
-        class="fixed min-w-[30%] w-[300px] z-[18] top-[105px] right-[5px] h-fit py-3 px-2 flex justify-between place-items-center gap-x-4 border-t-[3px] border-red-700 dark:border-red-500 rounded-md shadow-sm shadow-[#ddd] bg-white transition-all duration-300 ease-in-out">
+        class="fixed w-[50%] base:w-[300px] z-[18] top-[105px] right-[5px] h-fit py-3 px-2 flex justify-between place-items-center gap-x-4 border-t-[3px] border-red-700 dark:border-red-500 rounded-md shadow-sm shadow-[#ddd] bg-white transition-all duration-300 ease-in-out">
         <div
             class="icon w-[30px] h-[30px] bg-red-700 dark:bg-red-600 text-white flex justify-center items-center px-[7px] pt-[4px] rounded-md">
             <i class="fi fi-br-exclamation"></i>
@@ -11,7 +11,6 @@
             <i class="fi fi-rr-circle-xmark"></i>
         </div>
     </div>
-
     @php
         session()->forget('error');
     @endphp
@@ -20,7 +19,7 @@
 
 @if (session()->has('success'))
     <div id="success-toast"
-        class="fixed min-w-[30%] w-[300px] z-[18] top-[105px] right-[5px] h-fit py-3 px-2 flex justify-between place-items-center gap-x-4 border-t-[3px] border-green-700 dark:green-red-500 rounded-md shadow-sm shadow-[#ddd] bg-white transition-all duration-300 ease-in-out">
+        class="fixed w-[50%] base:w-[300px] z-[18] top-[105px] right-[5px] h-fit py-3 px-2 flex justify-between place-items-center gap-x-4 border-t-[3px] border-green-700 dark:green-red-500 rounded-md shadow-sm shadow-[#ddd] bg-white transition-all duration-300 ease-in-out">
         <div
             class="icon w-[30px] h-[30px] bg-green-700 dark:bg-green-600 text-white flex justify-center items-center px-[7px] pt-[4px] rounded-md">
             <i class="fi fi-br-check"></i>
