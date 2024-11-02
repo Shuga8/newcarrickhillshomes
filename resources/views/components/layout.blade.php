@@ -45,6 +45,9 @@
 
 
         @include('partials._back-to-top')
+
+
+        @include('partials._footer')
         <!-- Scripts Resources -->
         <script src="https://cdn.jsdelivr.net/npm/@flaticon/flaticon-uicons@3.3.1/license.min.js"></script>
         @stack('script')
