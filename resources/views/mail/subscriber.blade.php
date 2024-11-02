@@ -33,7 +33,7 @@
             </div>
 
             <h1 style="font-size: 14px;color:#212121;padding: 0px 18px;font-weight:400;margin-bottom:30px;">
-                Dear {{ $data['email'] }},
+                Dear {{ $email }},
             </h1>
 
             <div

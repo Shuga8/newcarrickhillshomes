@@ -38,8 +38,10 @@ class PagesController extends Controller
             $subscriber->email = $request->email;
             $subscriber->save();
 
+            dispatch(new \App\Jobs\Subscriber($request->email));
+
             DB::commit();
-            return $this->success("Subscription successfull &check;");
+            return $this->success("Subscription successfull");
         } catch (\Exception $e) {
 
             DB::rollBack();
