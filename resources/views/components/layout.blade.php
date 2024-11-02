@@ -39,6 +39,8 @@
 
         @include('partials._header')
 
+        <x-alerts />
+
         {{ $slot }}
 
 

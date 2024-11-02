@@ -43,4 +43,6 @@ class PagesController extends Controller
 
         return view('contact')->with($data);
     }
+
+    public function send(Request $request) {}
 }

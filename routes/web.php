@@ -10,3 +10,4 @@ Route::get('/contact', [PagesController::class, 'contact'])->name('contact');
 
 /** Post Requests */
 Route::post('/subscribe', [PagesController::class, 'subscribe'])->name('subscribe');
+Route::post('/contact', [PagesController::class, 'send'])->name('send');
