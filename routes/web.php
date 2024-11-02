@@ -9,11 +9,9 @@ Route::get('/apartment/{index}', [PagesController::class, 'single'])->name('apar
 Route::get('/gallery', [PagesController::class, 'gallery'])->name('gallery');
 Route::get('/contact', [PagesController::class, 'contact'])->name('contact');
 Route::get('/render', function () {
-    $data = [
-        'email' => 'lotocharles8@mail.com'
-    ];
+    $email = 'lotocharles8@mail.com';
 
-    return new App\Mail\Subscriber($data);
+    return new App\Mail\Subscriber($email);
 });
 
 /** Post Requests */

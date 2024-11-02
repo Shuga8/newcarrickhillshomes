@@ -13,8 +13,7 @@
             rel="stylesheet">
     </head>
 
-    <body
-        style="width: 100%;height:100vh;display:flex;justify-content:center;align-items:center;place-content:center;place-items:center;background:#ddd;">
+    <body style="width: 100%;height:100%;background:#ddd;overflow-y:auto;">
 
         <style>
             * {
@@ -26,7 +25,7 @@
         </style>
 
         <div
-            style="position: relative;width: 90%;max-width:600px;height:70dvh;background:#fff;border-top: 7px solid rgb(46, 2, 99);">
+            style="margin: 100px auto 0px auto; position: relative;width: 90%;max-width:600px;height:600px;background:#fff;border-top: 7px solid rgb(46, 2, 99);">
             <div style="margin: 10px 0px">
                 <img src="https://newcarrickhills.com/assets/logo-light.png"
                     style="display:block;width: 100px;height:100px;object-fit:contain;margin: 0px auto;" alt="">
@@ -36,46 +35,45 @@
                 Dear {{ $email }},
             </h1>
 
-            <div
-                style="display: flex;justify-content:center;place-items:center;padding:20px 15px;flex-direction:column;row-gap:25px;">
+            <div style="padding:20px 15px;">
                 <p
-                    style="padding: 10px 10px;background: rgba(46, 2, 99, .8);color: #fff;text-align:center;width:fit-content;font-size:13px;">
+                    style="padding: 10px 10px; margin: 15px auto;background: rgba(46, 2, 99, .8);color: #fff;text-align:center;width:fit-content;font-size:13px;">
                     Your Subscription was successfull.
                 </p>
 
                 <p
-                    style="padding: 10px 10px;background: rgba(46, 2, 99, .8);color: #fff;text-align:center;width:fit-content;font-size:13px;">
+                    style="padding: 10px 10px; margin: 15px auto;background: rgba(46, 2, 99, .8);color: #fff;text-align:center;width:fit-content;font-size:13px;">
                     You'll be recieving newsletters from us every week.
                 </p>
 
                 <p
-                    style="padding: 5px 10px;color: rgba(46, 2, 99, .8);text-align:center;width:fit-content;font-weight:550;">
+                    style="padding: 5px 10px;margin: 15px auto;color: rgba(46, 2, 99, .8);text-align:center;width:fit-content;font-weight:550;">
                     THANK YOU!
                 </p>
             </div>
 
-            <div
-                style="position: absolute;bottom:100px; padding: 12px 20px;display:flex;justify-content:center;gap:20px;flex-direction:row;width:100%;">
-                <a href="" target="_blank" style="width: fit-content;">
+            <div style="padding: 12px 20px;display:block;width:fit-content; margin: 10px auto;">
+                <a href="" target="_blank" style="width: fit-content;text-decoration:none;">
                     <img src="https://newcarrickhills.com/assets/icons/instagram.png"
-                        style="width: 35px;height:35px;border-radius:3px;object-fit:contain;" alt="Instagram">
+                        style="width: 35px;height:35px;border-radius:3px;object-fit:contain;margin-right: 10px;"
+                        alt="Instagram">
                 </a>
 
-                <a href="" target="_blank" style="width: fit-content;">
+                <a href="" target="_blank" style="width: fit-content;text-decoration:none;">
                     <img src="https://newcarrickhills.com/assets/icons/facebook.png"
-                        style="width: 35px;height:35px;border-radius:3px;object-fit:contain;" alt="Instagram">
+                        style="width: 35px;height:35px;border-radius:3px;object-fit:contain;margin-right: 10px;"
+                        alt="Instagram">
                 </a>
 
-                <a href="" target="_blank" style="width: fit-content;">
+                <a href="" target="_blank" style="width: fit-content;text-decoration:none;">
                     <img src="https://newcarrickhills.com/assets/icons/linkedin.png"
                         style="width: 35px;height:35px;border-radius:3px;object-fit:contain;" alt="Instagram">
                 </a>
             </div>
 
-            <div
-                style="position: absolute;bottom:10px; padding: 12px 20px;display:flex;justify-content:center;gap:7px;flex-direction:column;width:100%;">
+            <div style="padding: 12px 20px;text-align:center;width:100%;">
 
-                <p style="font-size:11px;color:rgb(251, 36, 36);text-align:center;">Love, <a
+                <p style="font-size:11px;color:rgb(251, 36, 36);text-align:center;margin-bottom:10px;">Love, <a
                         style="color: rgb(7, 45, 140);" target="_blank" href="https://newcarrickhills.com/">New
                         Carrick Hills
                         Homes</a></p>
