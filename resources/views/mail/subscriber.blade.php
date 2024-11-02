@@ -25,7 +25,7 @@
         </style>
 
         <div
-            style="margin: 100px auto 0px auto; position: relative;width: 90%;max-width:600px;height:600px;background:#fff;border-top: 7px solid rgb(46, 2, 99);">
+            style="margin: 100px auto 0px auto; position: relative;width: 90%;max-width:600px;height:550px;background:#fff;border-top: 7px solid rgb(46, 2, 99);">
             <div style="margin: 10px 0px">
                 <img src="https://newcarrickhills.com/assets/logo-light.png"
                     style="display:block;width: 100px;height:100px;object-fit:contain;margin: 0px auto;" alt="">
