@@ -55,6 +55,13 @@
         minus corporis. Iste inventore blanditiis rem fugiat optio aperiam ea officia consequatur voluptatem expedita!
     </div>
 
+    <div
+        class="video w-full h-[500px] pt-10 pb-0 px-4 base:px-24 md:px-44 flex justify-center items-center bg-gray-100 dark:bg-[#1212]">
+        <iframe width="700px" height="100%" src="https://www.youtube.com/embed/4TYC1Szexpg?si=hQ4d_uqBuH8-ghVy"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
 
     <div class=" w-full h-fit py-10 md:pt-24 md:pb-10 px-3 bg-gray-100 dark:bg-[#1212] flex justify-center">
         <div class="w-[100%] h-fit max-w-[900px] bg-white px-6 base:px-10 py-7 base:py-12">
@@ -356,31 +363,68 @@
             const apartments = [{
                     title: "Luxury Single Room",
                     img: `${url}/assets/IMG_3654.jpeg`,
+                    video: `
+                        <iframe width="700px" height="100%" src="https://www.youtube.com/embed/4TYC1Szexpg?si=hQ4d_uqBuH8-ghVy"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        `
                 },
                 {
                     title: "Studio Room",
                     img: `${url}/assets/IMG_3658.jpeg`,
+                    video: `
+                        <iframe width="700px" height="100%" src="https://www.youtube.com/embed/4TYC1Szexpg?si=hQ4d_uqBuH8-ghVy"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        `
                 },
                 {
                     title: "One Bedroom",
                     img: `${url}/assets/IMG_3697.jpeg`,
+                    video: `
+                        <iframe width="700px" height="100%" src="https://www.youtube.com/embed/4TYC1Szexpg?si=hQ4d_uqBuH8-ghVy"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        `
                 },
                 {
                     title: "Two Bedrooms",
                     img: `${url}/assets/IMG_3665.jpeg`,
+                    video: `
+                        <iframe width="700px" height="100%" src="https://www.youtube.com/embed/4TYC1Szexpg?si=hQ4d_uqBuH8-ghVy"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        `
                 },
                 {
                     title: "Four Bedroom Penthouse",
                     img: `${url}/assets/IMG_3649.jpeg`,
+                    video: `
+                        <iframe width="700px" height="100%" src="https://www.youtube.com/embed/4TYC1Szexpg?si=hQ4d_uqBuH8-ghVy"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        `
                 },
                 {
                     title: "Luxury Studio Apartment",
                     img: `${url}/assets/IMG_3639.jpeg`,
+                    video: `
+                        <iframe width="700px" height="100%" src="https://www.youtube.com/embed/4TYC1Szexpg?si=hQ4d_uqBuH8-ghVy"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        `
                 },
             ];
             let index = parseInt("{{ $index }}") - 1;
 
             document.querySelector("#title").textContent = apartments[index].title;
+            document.querySelector(".video").innerHTML = apartments[index].video;
             document.querySelector("#img").setAttribute("src", apartments[index].img);
             document.querySelector("#img_url").setAttribute("href", apartments[index].img);
         </script>

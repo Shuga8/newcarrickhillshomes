@@ -100,9 +100,8 @@
                 elit. Minus, natus officiis nihil reprehenderit exercitationem harum recusandae molestiae. Cumque
                 mollitia rerum, suscipit id consequatur unde corporis quidem recusandae. Magni, officiis eveniet.</div>
 
-            <a href="{{ route('contact') }}"
-                class="book-btn w-fit py-[16px] text-sm px-14 text-white bg-yellow-600 hover:text-yellow-600 uppercase border-[2px] border-white dark:border-[#121212] hover:border-yellow-600 dark:hover:border-yellow-600 hover:bg-transparent mx-auto md:mx-0">Book
-                Now</a>
+            <a href="{{ route('apartments') }}"
+                class="book-btn w-fit py-[16px] text-sm px-14 text-white bg-yellow-600 hover:text-yellow-600 uppercase border-[2px] border-white dark:border-[#121212] hover:border-yellow-600 dark:hover:border-yellow-600 hover:bg-transparent mx-auto md:mx-0">Discover</a>
 
 
         </div>
