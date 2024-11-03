@@ -25,12 +25,13 @@
             </a>
 
             <div
-                class="absolute z-[2] bottom-[-40px] w-4/5 h-[fit-content] left-1/2 translate-x-[-50%] bg-white flex justify-center items-center flex-col pt-4 pb-2 gap-y-2 px-2 border-t-[7px] border-cyan-600 dark:border-yellow-600">
+                class="absolute z-[2] bottom-[-80px] w-4/5 h-[fit-content] left-1/2 translate-x-[-50%] bg-white flex justify-center items-center flex-col pt-4 pb-4 gap-y-2 px-2 border-t-[7px] border-cyan-600 dark:border-yellow-600">
                 <h2 class="uppercase text-gray-500 font-semibold tracking-[3px] text-center">Luxury Bed</h2>
 
                 <h3 class="old-standard text-[24px] base:text-[40px] text-black text-center " id="title">Luxury
                     Single Room
                 </h3>
+
             </div>
         </div>
 
@@ -39,7 +40,7 @@
     </section>
 
     <div
-        class="outside text-[15px] px-3 base:px-24 md:px-44 py-3.5 text-center base:text-left leading-[1.7] text-stone-800 dark:text-stone-300 bg-gray-100 dark:bg-[#1212]">
+        class="outside text-[15px] px-3 base:px-24 md:px-44 pt-6 pb-3.5 text-center base:text-left leading-[1.7] text-stone-800 dark:text-stone-300 bg-gray-100 dark:bg-[#1212]">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem facere perferendis ratione minima aspernatur
         dolores magni asperiores repellat saepe incidunt facilis, voluptates ab explicabo. Minima temporibus dolores,
         nemo, earum explicabo accusantium, veritatis delectus repellendus consectetur inventore maxime eligendi ducimus
@@ -324,6 +325,31 @@
 
     </div>
 
+    <div class="text-center base:text-left pb-10 w-full flex justify-center h-fit  bg-gray-100 dark:bg-[#1212]">
+        <a href="{{ route('contact') }}"
+            class="px-10 py-3.5 border-[2px] font-medium transition-colors ease-in-out duration-500 border-cyan-700 text-white bg-cyan-700 hover:bg-white hover:text-cyan-700 w-fit uppercase">Book
+            Now</a>
+    </div>
+
+    <section class="subcribe-form w-full h-[40dvh] px-8 flex flex-col gap-y-10 justify-center items-center">
+
+        <h4 class="old-standard text-[1.5rem] md:text-[60px] text-slate-800 dark:text-white text-center font-[450]">
+            Subscribe to Newsletter
+        </h4>
+
+        <form action="{{ route('subscribe') }}" method="POST" class="w-full flex justify-center">
+            @csrf
+
+            <div class="input w-[100%] md:w-[70%] lg:w-[60%] relative">
+                <input type="text" name="email" id="email"
+                    class="py-[24px] px-[24px] w-full rounded-sm border-transparent bg-slate-200 focus:border-none focus:outline-none text-[#121212] text-[11px] md:text-[14px]"
+                    placeholder="email address...">
+                <button type="submit"
+                    class="absolute top-[50%] right-[10px] translate-y-[-50%] text-white bg-blue-700 dark:text-white dark:bg-blue-800 py-[14px] px-5 md:px-10 rounded-sm hover:bg-stone-800 dark:hover:bg-slate-700 hover:transition-all ease-out duration-300">Subscribe</button>
+            </div>
+        </form>
+    </section>
+
     @push('script')
         <script type="text/javascript">
             var url = "http://localhost:8000";
@@ -345,7 +371,11 @@
                 },
                 {
                     title: "Four Bedroom Penthouse",
-                    img: `${url}/assets/IMG_3657.jpeg`,
+                    img: `${url}/assets/IMG_3649.jpeg`,
+                },
+                {
+                    title: "Luxury Studio Apartment",
+                    img: `${url}/assets/IMG_3639.jpeg`,
                 },
             ];
             let index = parseInt("{{ $index }}") - 1;

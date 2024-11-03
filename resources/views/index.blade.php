@@ -129,22 +129,23 @@
             <div class="slide-up basis-[285px] h-[320px] grow md:grow-0">
 
                 <div class="anchor">
-                    <a href="{{ route('apartments') }}">
+                    <a href="{{ asset('assets/IMG_3654.jpeg') }}" target="_blank">
                         <div class="img-1">
                         </div>
                     </a>
                 </div>
 
                 <div class="content">
-                    <h5 class="text-center text-[17px] text-slate-600 dark:text-gray-300 font-semibold">Flex Apartment
+                    <h5 class="text-center text-[17px] text-slate-600 dark:text-gray-300 font-semibold">Luxury Single
+                        Room
                     </h5>
 
-                    <p class="text-center captialize text-[14px] text-slate-400 dark:text-slate-400">1 persons, 1 Queens
-                        Sized Beds,
-                        2 rooms</p>
+                    <p class="text-center captialize text-[14px] text-slate-400 dark:text-slate-400">1 Queen Sized Bed,
+                        1
+                        Room</p>
 
-                    <a href="{{ route('contact') }}"
-                        class="px-8 py-2.5 border-[2px] font-medium transition-colors ease-in-out duration-300 border-cyan-600 text-cyan-600 hover:bg-cyan-600 hover:text-white w-fit mx-auto mt-3.5 uppercase">Book
+                    <a href="{{ route('apartment', 1) }}"
+                        class="px-8 py-2.5 border-[2px] font-medium transition-colors ease-in-out duration-300 border-cyan-600 text-cyan-600 hover:bg-cyan-600 hover:text-white w-fit mx-auto mt-3.5 uppercase">View
                         Now</a>
                 </div>
 
@@ -153,22 +154,21 @@
             <div class="slide-up  basis-[285px] h-[320px] grow md:grow-0">
 
                 <div class="anchor">
-                    <a href="">
+                    <a href="{{ asset('assets/IMG_3665.jpeg') }}" target="_blank">
                         <div class="img-2">
                         </div>
                     </a>
                 </div>
 
                 <div class="content">
-                    <h5 class="text-center text-[17px] text-slate-600 dark:text-gray-300 font-semibold">Luxury Apartment
+                    <h5 class="text-center text-[17px] text-slate-600 dark:text-gray-300 font-semibold">Studio Room
                     </h5>
 
-                    <p class="text-center captialize text-[14px] text-slate-400 dark:text-slate-400">1 person, 1 King
-                        Sized Bed,
-                        1 rooms</p>
+                    <p class="text-center captialize text-[14px] text-slate-400 dark:text-slate-400">1 King Sized Bed, 1
+                        Room</p>
 
-                    <a href="{{ route('contact') }}"
-                        class="px-8 py-2.5 border-[2px] font-medium transition-colors ease-in-out duration-300 border-cyan-600 text-cyan-600 hover:bg-cyan-600 hover:text-white w-fit mx-auto mt-3.5 uppercase">Book
+                    <a href="{{ route('apartment', 2) }}"
+                        class="px-8 py-2.5 border-[2px] font-medium transition-colors ease-in-out duration-300 border-cyan-600 text-cyan-600 hover:bg-cyan-600 hover:text-white w-fit mx-auto mt-3.5 uppercase">View
                         Now</a>
                 </div>
 
@@ -177,22 +177,22 @@
             <div class="slide-up basis-[285px] h-[320px] grow md:grow-0">
 
                 <div class="anchor">
-                    <a href="">
+                    <a href="{{ asset('assets/IMG_3665.jpeg') }}" target="_blank">
                         <div class="img-3">
                         </div>
                     </a>
                 </div>
 
                 <div class="content">
-                    <h5 class="text-center text-[17px] text-slate-600 dark:text-gray-300 font-semibold">Garden Apartment
+                    <h5 class="text-center text-[17px] text-slate-600 dark:text-gray-300 font-semibold">Deluxe Two
+                        Bedrooms
                     </h5>
 
-                    <p class="text-center captialize text-[14px] text-slate-400 dark:text-slate-400">3 Persons, 2 King
-                        Sized Beds,
-                        3 rooms</p>
+                    <p class="text-center captialize text-[14px] text-slate-400 dark:text-slate-400">1 King Sized Bed,
+                        2 Rooms</p>
 
-                    <a href="{{ route('contact') }}"
-                        class="px-8 py-2.5 border-[2px] font-medium transition-colors ease-in-out duration-300 border-cyan-600 text-cyan-600 hover:bg-cyan-600 hover:text-white w-fit mx-auto mt-3.5 uppercase">Book
+                    <a href="{{ route('apartment', 4) }}"
+                        class="px-8 py-2.5 border-[2px] font-medium transition-colors ease-in-out duration-300 border-cyan-600 text-cyan-600 hover:bg-cyan-600 hover:text-white w-fit mx-auto mt-3.5 uppercase">View
                         Now</a>
                 </div>
 
@@ -201,26 +201,24 @@
             <div class="slide-up basis-[285px] h-[320px] grow md:grow-0">
 
                 <div class="anchor">
-                    <a href="">
+                    <a href="{{ asset('assets/IMG_3649.jpeg') }}" target="_blank">
                         <div class="img-4">
                         </div>
                     </a>
                 </div>
 
                 <div class="content">
-                    <h5 class="text-center text-[17px] text-slate-600 dark:text-gray-300 font-semibold">Party Apartment
+                    <h5 class="text-center text-[17px] text-slate-600 dark:text-gray-300 font-semibold">Four Bedrooms
+                        Penthouse
                     </h5>
 
-                    <p class="text-center captialize text-[14px] text-slate-400 dark:text-slate-400">Large Party Floor,
-                        4 King
-                        Sized Beds,
-                        6 rooms</p>
+                    <p class="text-center captialize text-[14px] text-slate-400 dark:text-slate-400">2 King Sized Bed,
+                        4 Rooms</p>
 
-                    <a href="{{ route('contact') }}"
-                        class="px-8 py-2.5 border-[2px] font-medium transition-colors ease-in-out duration-300 border-cyan-600 text-cyan-600 hover:bg-cyan-600 hover:text-white w-fit mx-auto mt-3.5 uppercase">Book
+                    <a href="{{ route('apartment', 5) }}"
+                        class="px-8 py-2.5 border-[2px] font-medium transition-colors ease-in-out duration-300 border-cyan-600 text-cyan-600 hover:bg-cyan-600 hover:text-white w-fit mx-auto mt-3.5 uppercase">View
                         Now</a>
                 </div>
-
             </div>
         </div>
 
