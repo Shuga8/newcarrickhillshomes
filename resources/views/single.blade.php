@@ -19,16 +19,17 @@
         class="apartment  w-full min-h-[500px] py-24 md:py-24 px-3 bg-gray-100 dark:bg-[#1212] flex justify-center place-content-center">
 
         <div class="w-[100%] h-[400px] max-w-[900px] relative" id="image-container">
-            <a href="{{ asset('assets/IMG_3654.jpeg') }}" target="_blank" class="img_url">
-                <img src="{{ asset('assets/IMG_3654.jpeg') }}" alt="{{ $index }}"
-                    class="w-full h-full object-cover bg-center">
+            <a href="{{ asset('assets/IMG_3654.jpeg') }}" target="_blank" id="img_url">
+                <img src="{{ asset('assets/IMG_3654.jpeg') }}" alt="{{ $index }}" loading="lazy"
+                    class="w-full h-full object-cover bg-center" id="img">
             </a>
 
             <div
                 class="absolute z-[2] bottom-[-40px] w-4/5 h-[fit-content] left-1/2 translate-x-[-50%] bg-white flex justify-center items-center flex-col pt-4 pb-2 gap-y-2 px-2 border-t-[7px] border-cyan-600 dark:border-yellow-600">
-                <h2 class="uppercase text-gray-500 font-semibold tracking-[3px] text-center">Single Bed</h2>
+                <h2 class="uppercase text-gray-500 font-semibold tracking-[3px] text-center">Luxury Bed</h2>
 
-                <h3 class="old-standard text-[24px] base:text-[40px] text-black text-center">Luxury Single Room
+                <h3 class="old-standard text-[24px] base:text-[40px] text-black text-center " id="title">Luxury
+                    Single Room
                 </h3>
             </div>
         </div>
@@ -202,7 +203,7 @@
                     </span>
 
                     <span class="text-gray-500 capitalize">
-                        Team
+                        Fast Response Team
                     </span>
 
                 </div>
@@ -323,4 +324,35 @@
 
     </div>
 
+    @push('script')
+        <script type="text/javascript">
+            var url = "http://localhost:8000";
+            const apartments = [{
+                    title: "Luxury Single Room",
+                    img: `${url}/assets/IMG_3654.jpeg`,
+                },
+                {
+                    title: "Studio Room",
+                    img: `${url}/assets/IMG_3658.jpeg`,
+                },
+                {
+                    title: "One Bedroom",
+                    img: `${url}/assets/IMG_3697.jpeg`,
+                },
+                {
+                    title: "Two Bedrooms",
+                    img: `${url}/assets/IMG_3665.jpeg`,
+                },
+                {
+                    title: "Four Bedroom Penthouse",
+                    img: `${url}/assets/IMG_3657.jpeg`,
+                },
+            ];
+            let index = parseInt("{{ $index }}") - 1;
+
+            document.querySelector("#title").textContent = apartments[index].title;
+            document.querySelector("#img").setAttribute("src", apartments[index].img);
+            document.querySelector("#img_url").setAttribute("href", apartments[index].img);
+        </script>
+    @endpush
 </x-layout>
