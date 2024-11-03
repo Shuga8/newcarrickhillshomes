@@ -12,6 +12,15 @@
 html {
   scroll-behavior: smooth;
 }
+html::-webkit-scrollbar {
+  height: 3px;
+  width: 3px;
+}
+html::-webkit-scrollbar-thumb {
+  background: #2158fc;
+  color: #2158fc;
+  height: 10px;
+}
 html.sr .load-hidden {
   visibility: hidden;
 }

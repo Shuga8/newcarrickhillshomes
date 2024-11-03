@@ -1,3 +1,306 @@
 <x-layout :title="$title">
+    <section class="apartment-hero">
+
+        <div class="content">
+
+            <p class="hero-label text-center md:text-left text-gray-400 dark:text-gray-200 uppercase font-semibold">
+                The ultimate luxury experience
+            </p>
+
+            <h1 class="text-slate-100 dark:text-yellow-500 capitalize font-bold text-center md:text-left old-standard">
+                Apartment
+            </h1>
+
+        </div>
+
+    </section>
+
+    <section
+        class="apartment  w-full min-h-[500px] py-24 md:py-24 px-3 bg-gray-100 dark:bg-[#1212] flex justify-center place-content-center">
+
+        <div class="w-[100%] h-[400px] max-w-[900px] relative" id="image-container">
+            <a href="{{ asset('assets/IMG_3654.jpeg') }}" target="_blank" class="img_url">
+                <img src="{{ asset('assets/IMG_3654.jpeg') }}" alt="{{ $index }}"
+                    class="w-full h-full object-cover bg-center">
+            </a>
+
+            <div
+                class="absolute z-[2] bottom-[-40px] w-4/5 h-[fit-content] left-1/2 translate-x-[-50%] bg-white flex justify-center items-center flex-col pt-4 pb-2 gap-y-2 px-2 border-t-[7px] border-cyan-600 dark:border-yellow-600">
+                <h2 class="uppercase text-gray-500 font-semibold tracking-[3px] text-center">Single Bed</h2>
+
+                <h3 class="old-standard text-[24px] base:text-[40px] text-black text-center">Luxury Single Room
+                </h3>
+            </div>
+        </div>
+
+
+
+    </section>
+
+    <div
+        class="outside text-[15px] px-3 base:px-24 md:px-44 py-3.5 text-center base:text-left leading-[1.7] text-stone-800 dark:text-stone-300 bg-gray-100 dark:bg-[#1212]">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem facere perferendis ratione minima aspernatur
+        dolores magni asperiores repellat saepe incidunt facilis, voluptates ab explicabo. Minima temporibus dolores,
+        nemo, earum explicabo accusantium, veritatis delectus repellendus consectetur inventore maxime eligendi ducimus
+        doloribus.
+    </div>
+
+    <div
+        class="outside text-[15px] px-3 base:px-24 md:px-44 py-3.5 text-center base:text-left leading-[1.7] text-stone-800 dark:text-stone-300 bg-gray-100 dark:bg-[#1212]">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur nulla deserunt at ducimus dolores. Doloribus
+        temporibus voluptate quod doloremque quam inventore architecto animi minima nam iusto explicabo itaque, velit
+        ut. Deserunt officia error culpa vitae voluptas tempore aut quidem, nulla sint nemo debitis quos reiciendis vero
+        minus corporis. Iste inventore blanditiis rem fugiat optio aperiam ea officia consequatur voluptatem expedita!
+    </div>
+
+
+    <div class=" w-full h-fit py-10 md:pt-24 md:pb-10 px-3 bg-gray-100 dark:bg-[#1212] flex justify-center">
+        <div class="w-[100%] h-fit max-w-[900px] bg-white px-6 base:px-10 py-7 base:py-12">
+
+            <h3 class="old-standard text-[24px]  base:text-[27px] md:text-[30px] text-gray-950 font-[300]">
+                Amenities
+            </h3>
+
+            <hr class="border-[1px] border-gray-200 dark:border-gray-600 mt-3" />
+
+            <div class="grid grid-cols-2 base:grid-cols-3 gap-y-4 base:gap-y-6 gap-x-4 px-3 pt-10 pb-3">
+                <div
+                    class="flex flex-row gap-x-3.5 place-content-center justify-center text-[12px] base:text-[14px] w-fit h-fit ">
+
+                    <span class="text-stone-700">
+                        <i class="fi fi-rr-bath"></i>
+                    </span>
+
+                    <span class="text-gray-500 capitalize">
+                        Air Conditioner
+                    </span>
+
+                </div>
+
+                <div
+                    class="flex flex-row gap-x-3.5 place-content-center text-[12px] base:text-[14px] h-fit w-fit justify-center">
+
+                    <span class="text-stone-700">
+                        <i class="fi fi-rr-wifi"></i>
+                    </span>
+
+                    <span class="text-gray-500 capitalize">
+                        High Speed Wifi
+                    </span>
+
+                </div>
+
+                <div
+                    class="flex flex-row gap-x-3.5 place-content-center justify-center text-[12px] base:text-[14px] h-fit w-fit">
+
+                    <span class="text-stone-700">
+                        <i class="fi fi-rs-room-service"></i>
+                    </span>
+
+                    <span class="text-gray-500 capitalize">
+                        Breakfast
+                    </span>
+
+                </div>
+
+                <div
+                    class="flex flex-row gap-x-3.5 place-content-center text-[12px] base:text-[14px] h-fit w-fit justify-center">
+
+                    <span class="text-stone-700">
+                        <i class="fi fi-rs-microwave"></i>
+                    </span>
+
+                    <span class="text-gray-500 capitalize">
+                        Kitchen
+                    </span>
+
+                </div>
+
+                <div
+                    class="flex flex-row gap-x-3.5 place-content-center text-[12px] base:text-[14px] h-fit w-fit justify-center">
+
+                    <span class="text-stone-700">
+                        <i class="fi fi-rr-broom"></i>
+                    </span>
+
+                    <span class="text-gray-500 capitalize">
+                        Cleaning
+                    </span>
+
+                </div>
+
+                <div
+                    class="flex flex-row gap-x-3.5 place-content-center text-[12px] base:text-[14px] h-fit w-fit justify-center">
+
+                    <span class="text-stone-700">
+                        <i class="fi fi-rr-shower"></i>
+                    </span>
+
+                    <span class="text-gray-500 capitalize">
+                        Shower
+                    </span>
+
+                </div>
+
+                <div
+                    class="flex flex-row gap-x-3.5 place-content-center text-[12px] base:text-[14px] h-fit w-fit justify-center">
+
+                    <span class="text-stone-700">
+                        <i class="fi fi-rr-grocery-basket"></i>
+                    </span>
+
+                    <span class="text-gray-500 capitalize">
+                        Grocery
+                    </span>
+
+                </div>
+
+                <div
+                    class="flex flex-row gap-x-3.5 place-content-center text-[12px] base:text-[14px] h-fit w-fit justify-center">
+
+                    <span class="text-stone-700">
+                        <i class="fi fi-rr-bed"></i>
+                    </span>
+
+                    <span class="text-gray-500 capitalize">
+                        Single Bed
+                    </span>
+
+                </div>
+
+                <div
+                    class="flex flex-row gap-x-3.5 place-content-center text-[12px] base:text-[14px] h-fit w-fit justify-center">
+
+                    <span class="text-stone-700">
+                        <i class="fi fi-rr-cart-shopping-fast"></i>
+                    </span>
+
+                    <span class="text-gray-500 capitalize">
+                        Shop Near
+                    </span>
+
+                </div>
+
+                <div
+                    class="flex flex-row gap-x-3.5 place-content-center text-[12px] base:text-[14px] h-fit w-fit justify-center">
+
+                    <span class="text-stone-700">
+                        <i class="fi fi-br-toilet-paper-blank"></i>
+                    </span>
+
+                    <span class="text-gray-500 capitalize">
+                        Towel
+                    </span>
+
+                </div>
+
+                <div
+                    class="flex flex-row gap-x-3.5 place-content-center text-[12px] base:text-[14px] h-fit w-fit justify-center">
+
+                    <span class="text-stone-700">
+                        <i class="fi fi-rs-employees"></i>
+                    </span>
+
+                    <span class="text-gray-500 capitalize">
+                        Team
+                    </span>
+
+                </div>
+
+                <div
+                    class="flex flex-row gap-x-3.5 place-content-center text-[12px] base:text-[14px] h-fit w-fit justify-center">
+
+                    <span class="text-stone-700">
+                        <i class="fi fi-rr-padlock-check"></i>
+                    </span>
+
+                    <span class="text-gray-500 capitalize">
+                        Security
+                    </span>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class=" w-full h-fit py-10 md:pt-0 md:pb-15 px-3 bg-gray-100 dark:bg-[#1212] flex justify-center">
+        <div class="w-[100%] h-fit max-w-[900px] bg-white px-6 base:px-10 py-7 base:py-12">
+
+            <h3 class="old-standard text-[24px]  base:text-[27px] md:text-[30px] text-gray-950 font-[300]">
+                House Rules
+            </h3>
+
+            <hr class="border-[1px] border-gray-200 dark:border-gray-600 mt-3" />
+
+            <div class="block w-full px-3 py-7 md:px-6 md:py-10">
+                <div
+                    class="flex flex-row gap-x-3.5 place-items-center justify-center text-[13px] base:text-[15px] w-fit h-fit mb-3">
+
+                    <span class="text-stone-700 text-[20px]">
+                        <i class="fi fi-br-check"></i>
+                    </span>
+
+                    <span class="text-gray-500 capitalize">
+                        No smoking, parties or events.
+                    </span>
+
+                </div>
+
+                <div
+                    class="flex flex-row gap-x-3.5 place-items-center justify-center text-[13px] base:text-[15px] w-fit h-fit mb-3">
+
+                    <span class="text-stone-700 text-[20px]">
+                        <i class="fi fi-br-check"></i>
+                    </span>
+
+                    <span class="text-gray-500 capitalize">
+                        Check-in time from 2 PM, check-out by 10 AM.
+                    </span>
+
+                </div>
+
+                <div
+                    class="flex flex-row gap-x-3.5 place-items-center justify-center text-[13px] base:text-[15px] w-fit h-fit mb-3">
+
+                    <span class="text-stone-700 text-[20px]">
+                        <i class="fi fi-br-check"></i>
+                    </span>
+
+                    <span class="text-gray-500 capitalize">
+                        Time to time car parking.
+                    </span>
+
+                </div>
+
+                <div
+                    class="flex flex-row gap-x-3.5 place-items-center justify-center text-[13px] base:text-[15px] w-fit h-fit mb-3">
+
+                    <span class="text-stone-700 text-[20px]">
+                        <i class="fi fi-br-check"></i>
+                    </span>
+
+                    <span class="text-gray-500 capitalize">
+                        Always use house emergency line.
+                    </span>
+
+                </div>
+
+                <div
+                    class="flex flex-row gap-x-3.5 place-items-center justify-center text-[13px] base:text-[15px] w-fit h-fit">
+
+                    <span class="text-stone-700 text-[20px]">
+                        <i class="fi fi-br-check"></i>
+                    </span>
+
+                    <span class="text-gray-500 capitalize">
+                        Browse regular our website.
+                    </span>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
 
 </x-layout>

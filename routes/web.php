@@ -5,7 +5,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [PagesController::class, 'index'])->name('home');
 Route::get('/apartments', [PagesController::class, 'listings'])->name('apartments');
-Route::get('/apartment/{index}', [PagesController::class, 'single'])->name('apartment');
+Route::get('/apartments/{index}', [PagesController::class, 'single'])->name('apartment');
 Route::get('/gallery', [PagesController::class, 'gallery'])->name('gallery');
 Route::get('/contact', [PagesController::class, 'contact'])->name('contact');
 Route::get('/render', function () {
