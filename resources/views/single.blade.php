@@ -163,7 +163,7 @@
                     </span>
 
                     <span class="text-gray-500 capitalize">
-                        Single Bed
+                        Standard Bed
                     </span>
 
                 </div>
@@ -297,6 +297,26 @@
                     </span>
 
                 </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class=" w-full h-fit py-10 md:pt-0 md:pb-15 px-3 bg-gray-100 dark:bg-[#1212] flex justify-center">
+        <div class="w-[100%] h-fit max-w-[900px] bg-white px-6 base:px-10 py-7 base:py-12">
+
+            <h3 class="old-standard text-[24px]  base:text-[27px] md:text-[30px] text-gray-950 font-[300]">
+                Cancellation
+            </h3>
+
+            <hr class="border-[1px] border-gray-200 dark:border-gray-600 mt-3" />
+
+            <div
+                class="block w-full px-3 py-3 md:px-6 md:py-5 leading-[1.8] text-center base:text-left text-[13px] base:text-[15px] text-stone-700">
+                Phasellus volutpat neque a tellus venenatis, a euismod augue facilisis. Fusce ut metus mattis, consequat
+                metus nec, luctus lectus. Pellentesque orci quis hendrerit sed eu dolor. Cancel up to 14 days to get a
+                full refund.
             </div>
 
         </div>
