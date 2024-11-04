@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\PagesController;
+use App\Mail\ThankYou;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', [PagesController::class, 'index'])->name('home');
@@ -12,6 +13,14 @@ Route::get('/render', function () {
     $email = 'lotocharles8@mail.com';
 
     return new App\Mail\Subscriber($email);
+});
+Route::get('/thank-you', function () {
+    $data = [
+        'name' => 'Charles',
+        'subject' => 'Testing this'
+    ];
+
+    return new ThankYou($data);
 });
 
 /** Post Requests */

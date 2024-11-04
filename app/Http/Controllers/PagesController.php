@@ -99,7 +99,6 @@ class PagesController extends Controller
         if ($validator->fails()) {
             return $this->error($validator->errors()->first());
         }
-
         $message = nl2br($request->message);
     }
 }

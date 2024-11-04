@@ -3,8 +3,8 @@
 namespace App\Mail;
 
 use Illuminate\Bus\Queueable;
-use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
+use Illuminate\Mail\Mailables\Address;
 use Illuminate\Mail\Mailables\Content;
 use Illuminate\Mail\Mailables\Envelope;
 use Illuminate\Queue\SerializesModels;
@@ -18,7 +18,7 @@ class ThankYou extends Mailable
      *
      * @return void
      */
-    public function __construct()
+    public function __construct(public $data)
     {
         //
     }
@@ -31,7 +31,9 @@ class ThankYou extends Mailable
     public function envelope()
     {
         return new Envelope(
-            subject: 'Thank You',
+            from: new Address('support@newcarrickhills.com', 'Name Carrick Hills Homes'),
+            tags: ['contact'],
+            subject: 'Your Message Was Recieved.',
         );
     }
 
@@ -43,7 +45,7 @@ class ThankYou extends Mailable
     public function content()
     {
         return new Content(
-            view: 'view.name',
+            view: 'mail.thank-you',
         );
     }
 
