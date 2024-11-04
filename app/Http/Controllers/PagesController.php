@@ -2,8 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Jobs\ThankYouJob;
 use App\Models\Subscriber;
 use App\Traits\Responses;
+use GrahamCampbell\ResultType\Success;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Validator;
@@ -100,5 +102,21 @@ class PagesController extends Controller
             return $this->error($validator->errors()->first());
         }
         $message = nl2br($request->message);
+
+        try {
+
+            $data = [
+                'email' => $request->email,
+                'subject' => $request->subject,
+                'name' => $request->fullname,
+                'phone' => $request->phone,
+                'message' => $message
+            ];
+            dispatch(new ThankYouJob($data));
+
+            return $this->success("Message Sent");
+        } catch (\Exception $e) {
+            return $this->error($e->getMessage());
+        }
     }
 }

@@ -76,9 +76,7 @@
 
                     <div class="group relative">
                         <textarea id="message" name="message" required placeholder="Enter message..."
-                            class="bg-gray-100 placeholder-gray-400 focus:outline-none text-slate-600 w-full text-[13px] py-[14px] base:py-[20px] pl-[40px] pr-[12px] h-[150px]">
-                            {{ old('fullname') }}
-                        </textarea>
+                            class="bg-gray-100 placeholder-gray-400 focus:outline-none text-slate-600 w-full text-[13px] py-[14px] base:py-[20px] pl-[40px] pr-[12px] h-[150px]"></textarea>
 
 
                         <i class="fi fi-rs-mobile-button absolute top-[19px] left-[13px] text-stone-700"></i>
