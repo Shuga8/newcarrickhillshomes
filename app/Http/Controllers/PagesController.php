@@ -58,7 +58,7 @@ class PagesController extends Controller
         return view('apartments')->with($data);
     }
 
-    public function single(int $index)
+    public function single(int $index = 1)
     {
         $data = [
             'title' => 'Apartment',

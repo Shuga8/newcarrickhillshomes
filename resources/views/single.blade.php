@@ -420,6 +420,86 @@
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                         `
                 },
+                {
+                    title: "Burndi Apartment",
+                    img: `${url}/assets/IMG_3672.jpeg`,
+                    video: `
+                        <iframe width="700px" height="100%" src="https://www.youtube.com/embed/4TYC1Szexpg?si=hQ4d_uqBuH8-ghVy"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        `
+                },
+                {
+                    title: "Flex Apartment",
+                    img: `${url}/assets/IMG_3657.jpeg`,
+                    video: `
+                        <iframe width="700px" height="100%" src="https://www.youtube.com/embed/4TYC1Szexpg?si=hQ4d_uqBuH8-ghVy"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        `
+                },
+                {
+                    title: "Single Bedroom",
+                    img: `${url}/assets/IMG_3667.jpeg`,
+                    video: `
+                        <iframe width="700px" height="100%" src="https://www.youtube.com/embed/4TYC1Szexpg?si=hQ4d_uqBuH8-ghVy"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        `
+                },
+                {
+                    title: "Pulse Single Bedroom",
+                    img: `${url}/assets/IMG_3675.jpeg`,
+                    video: `
+                        <iframe width="700px" height="100%" src="https://www.youtube.com/embed/4TYC1Szexpg?si=hQ4d_uqBuH8-ghVy"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        `
+                },
+                {
+                    title: "Genesis Apartment",
+                    img: `${url}/assets/IMG_3620.jpeg`,
+                    video: `
+                        <iframe width="700px" height="100%" src="https://www.youtube.com/embed/4TYC1Szexpg?si=hQ4d_uqBuH8-ghVy"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        `
+                },
+                {
+                    title: "Dipper Room",
+                    img: `${url}/assets/IMG_3679.jpeg`,
+                    video: `
+                        <iframe width="700px" height="100%" src="https://www.youtube.com/embed/4TYC1Szexpg?si=hQ4d_uqBuH8-ghVy"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        `
+                },
+                {
+                    title: "Azure Room",
+                    img: `${url}/assets/IMG_3623.jpeg`,
+                    video: `
+                        <iframe width="700px" height="100%" src="https://www.youtube.com/embed/4TYC1Szexpg?si=hQ4d_uqBuH8-ghVy"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        `
+                },
+                {
+                    title: "Superb Apartment",
+                    img: `${url}/assets/IMG_3669.jpeg`,
+                    video: `
+                        <iframe width="700px" height="100%" src="https://www.youtube.com/embed/4TYC1Szexpg?si=hQ4d_uqBuH8-ghVy"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        `
+                },
             ];
             let index = parseInt("{{ $index }}") - 1;
 
