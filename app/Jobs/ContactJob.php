@@ -2,14 +2,16 @@
 
 namespace App\Jobs;
 
+use App\Mail\Contact;
 use Illuminate\Bus\Queueable;
-use Illuminate\Contracts\Queue\ShouldBeUnique;
+use Illuminate\Support\Facades\Mail;
+use Illuminate\Queue\SerializesModels;
+use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;
-use Illuminate\Queue\InteractsWithQueue;
-use Illuminate\Queue\SerializesModels;
+use Illuminate\Contracts\Queue\ShouldBeUnique;
 
-class ContactJob implements ShouldQueue
+class ContactJob implements ShouldQueue, ShouldBeUnique
 {
     use Dispatchable, InteractsWithQueue, Queueable, SerializesModels;
 
@@ -18,7 +20,7 @@ class ContactJob implements ShouldQueue
      *
      * @return void
      */
-    public function __construct()
+    public function __construct(public $data)
     {
         //
     }
@@ -30,6 +32,6 @@ class ContactJob implements ShouldQueue
      */
     public function handle()
     {
-        //
+        Mail::to("contact@newcarrickhills.com")->send(new Contact($this->data));
     }
 }

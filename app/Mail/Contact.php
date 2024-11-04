@@ -3,11 +3,11 @@
 namespace App\Mail;
 
 use Illuminate\Bus\Queueable;
-use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
+use Illuminate\Mail\Mailables\Address;
 use Illuminate\Mail\Mailables\Content;
-use Illuminate\Mail\Mailables\Envelope;
 use Illuminate\Queue\SerializesModels;
+use Illuminate\Mail\Mailables\Envelope;
 
 class Contact extends Mailable
 {
@@ -18,7 +18,7 @@ class Contact extends Mailable
      *
      * @return void
      */
-    public function __construct()
+    public function __construct(public $data)
     {
         //
     }
@@ -31,7 +31,8 @@ class Contact extends Mailable
     public function envelope()
     {
         return new Envelope(
-            subject: 'Contact',
+            from: new Address('support@newcarrickhills.com', 'Website Message'),
+            subject: 'New Message From Website',
         );
     }
 
@@ -43,7 +44,7 @@ class Contact extends Mailable
     public function content()
     {
         return new Content(
-            view: 'view.name',
+            view: 'mail.contact',
         );
     }
 

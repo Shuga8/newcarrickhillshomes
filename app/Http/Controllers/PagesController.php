@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Jobs\ContactJob;
 use App\Jobs\ThankYouJob;
 use App\Models\Subscriber;
 use App\Traits\Responses;
@@ -112,7 +113,9 @@ class PagesController extends Controller
                 'phone' => $request->phone,
                 'message' => $message
             ];
+
             dispatch(new ThankYouJob($data));
+            dispatch(new ContactJob($data));
 
             return $this->success("Message Sent");
         } catch (\Exception $e) {

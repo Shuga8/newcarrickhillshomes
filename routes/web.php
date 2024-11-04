@@ -1,7 +1,6 @@
 <?php
 
 use App\Http\Controllers\PagesController;
-use App\Mail\ThankYou;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', [PagesController::class, 'index'])->name('home');
@@ -9,18 +8,17 @@ Route::get('/apartments', [PagesController::class, 'listings'])->name('apartment
 Route::get('/apartments/{index}', [PagesController::class, 'single'])->name('apartment');
 Route::get('/gallery', [PagesController::class, 'gallery'])->name('gallery');
 Route::get('/contact', [PagesController::class, 'contact'])->name('contact');
-Route::get('/render', function () {
-    $email = 'lotocharles8@mail.com';
 
-    return new App\Mail\Subscriber($email);
-});
-Route::get('/thank-you', function () {
+Route::get('/contact-mail', function () {
     $data = [
-        'name' => 'Charles',
-        'subject' => 'Testing this'
+        'name' => 'Charles Loto',
+        'subject' => 'Testing Subject',
+        'message' => "This <br/> makes a lot of sense, <br /> thank you",
+        'phone' => "09161682243",
+        'email' => 'sage@mail.com'
     ];
 
-    return new ThankYou($data);
+    return new App\Mail\Contact($data);
 });
 
 /** Post Requests */
