@@ -80,6 +80,22 @@ header.scrollable {
   animation: smooth-down 1s;
 }
 
+aside {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  width: 100dvw;
+  height: 100dvh;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  z-index: 40;
+  transition: left 0.3s ease-in-out;
+}
+aside.active {
+  left: 0;
+  transition: left 0.3s ease-in-out;
+}
+
 .hero {
   padding-top: 100px;
   position: relative;

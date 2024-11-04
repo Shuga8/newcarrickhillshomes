@@ -37,12 +37,29 @@
 
 </header>
 
+
+<aside class="sidebar bg-black bg-opacity-50 flex flex-col justify-center items-center gap-y-8">
+
+    <div class="absolute top-[15px] right-[15px] text-red-500 text-[25px] close">
+        <i class="fi fi-rr-cross-circle"></i>
+    </div>
+
+    <a href="{{ route('home') }}" class="text-cyan-600 dark:text-yellow-500 font-semibold">Home</a>
+    <a href="{{ route('apartments') }}" class="text-cyan-600 dark:text-yellow-500 font-semibold">Apartments</a>
+    <a href="{{ route('gallery') }}" class="text-cyan-600 dark:text-yellow-500 font-semibold">Gallery</a>
+    <a href="{{ route('contact') }}" class="text-cyan-600 dark:text-yellow-500 font-semibold">Contact Us</a>
+
+</aside>
+
 @push('script')
     <script type="text/javascript">
         "use strict";
 
         const header = document.querySelector("header");
         const backToTop = document.querySelector(".back-to-top");
+        const toggleBtn = document.querySelector(".toggle-icon");
+        const sideBar = document.querySelector(".sidebar");
+        const close = document.querySelector(".close");
 
         let previousY = window.scrollY;
 
@@ -94,5 +111,13 @@
                 }
             }
         });
+
+        toggleBtn.addEventListener("click", function() {
+            sideBar.classList.toggle("active");
+        })
+
+        close.addEventListener("click", function() {
+            sideBar.classList.toggle("active");
+        })
     </script>
 @endpush
