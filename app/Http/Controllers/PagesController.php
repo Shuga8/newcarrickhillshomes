@@ -6,7 +6,6 @@ use App\Jobs\ContactJob;
 use App\Jobs\ThankYouJob;
 use App\Models\Subscriber;
 use App\Traits\Responses;
-use GrahamCampbell\ResultType\Success;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Validator;
