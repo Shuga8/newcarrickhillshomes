@@ -60,8 +60,12 @@ class PagesController extends Controller
         return view('apartments')->with($data);
     }
 
-    public function single(int $index = 1)
+    public function single($index = 1)
     {
+
+        if (!preg_match("/^[0-9]{1,}$/", $index)) {
+            return to_route('apartments')->with(['error' => 'Invalid apartment']);
+        }
         $data = [
             'title' => 'Apartment',
             'index' => $index

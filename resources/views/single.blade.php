@@ -344,7 +344,7 @@
         <script type="text/javascript">
             var url = "http://localhost:8000";
             const apartments = [{
-                    title: "Luxury Single Room",
+                    title: "Single Room",
                     img: `${url}/assets/IMG_3654.jpeg`,
                     video: `
                         <iframe width="700px" height="100%" src="https://www.youtube.com/embed/4TYC1Szexpg?si=hQ4d_uqBuH8-ghVy"
@@ -384,7 +384,7 @@
                         `
                 },
                 {
-                    title: "Four Bedroom Penthouse",
+                    title: "Four Bedroom Penthouse",
                     img: `${url}/assets/IMG_3649.jpeg`,
                     video: `
                         <iframe width="700px" height="100%" src="https://www.youtube.com/embed/4TYC1Szexpg?si=hQ4d_uqBuH8-ghVy"
@@ -394,7 +394,7 @@
                         `
                 },
                 {
-                    title: "Luxury Studio Apartment",
+                    title: "Two Bedroom Apartment",
                     img: `${url}/assets/IMG_3639.jpeg`,
                     video: `
                         <iframe width="700px" height="100%" src="https://www.youtube.com/embed/4TYC1Szexpg?si=hQ4d_uqBuH8-ghVy"
@@ -404,7 +404,7 @@
                         `
                 },
                 {
-                    title: "Burndi Apartment",
+                    title: "Two Bedrooms",
                     img: `${url}/assets/IMG_3672.jpeg`,
                     video: `
                         <iframe width="700px" height="100%" src="https://www.youtube.com/embed/4TYC1Szexpg?si=hQ4d_uqBuH8-ghVy"
@@ -414,7 +414,7 @@
                         `
                 },
                 {
-                    title: "Flex Apartment",
+                    title: "Four Bedroom Penthouse",
                     img: `${url}/assets/IMG_3657.jpeg`,
                     video: `
                         <iframe width="700px" height="100%" src="https://www.youtube.com/embed/4TYC1Szexpg?si=hQ4d_uqBuH8-ghVy"
@@ -434,7 +434,7 @@
                         `
                 },
                 {
-                    title: "Pulse Single Bedroom",
+                    title: "Single Room",
                     img: `${url}/assets/IMG_3675.jpeg`,
                     video: `
                         <iframe width="700px" height="100%" src="https://www.youtube.com/embed/4TYC1Szexpg?si=hQ4d_uqBuH8-ghVy"
@@ -444,7 +444,7 @@
                         `
                 },
                 {
-                    title: "Genesis Apartment",
+                    title: "Two Bedrooms",
                     img: `${url}/assets/IMG_3620.jpeg`,
                     video: `
                         <iframe width="700px" height="100%" src="https://www.youtube.com/embed/4TYC1Szexpg?si=hQ4d_uqBuH8-ghVy"
@@ -454,7 +454,7 @@
                         `
                 },
                 {
-                    title: "Dipper Room",
+                    title: "Single Room",
                     img: `${url}/assets/IMG_3679.jpeg`,
                     video: `
                         <iframe width="700px" height="100%" src="https://www.youtube.com/embed/4TYC1Szexpg?si=hQ4d_uqBuH8-ghVy"
@@ -464,7 +464,7 @@
                         `
                 },
                 {
-                    title: "Azure Room",
+                    title: "Studio Room",
                     img: `${url}/assets/IMG_3623.jpeg`,
                     video: `
                         <iframe width="700px" height="100%" src="https://www.youtube.com/embed/4TYC1Szexpg?si=hQ4d_uqBuH8-ghVy"
@@ -474,7 +474,7 @@
                         `
                 },
                 {
-                    title: "Superb Apartment",
+                    title: "Four Bedroom Penthouse",
                     img: `${url}/assets/IMG_3669.jpeg`,
                     video: `
                         <iframe width="700px" height="100%" src="https://www.youtube.com/embed/4TYC1Szexpg?si=hQ4d_uqBuH8-ghVy"

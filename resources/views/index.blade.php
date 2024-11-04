@@ -135,7 +135,7 @@
                 </div>
 
                 <div class="content">
-                    <h5 class="text-center text-[17px] text-slate-600 dark:text-gray-300 font-semibold">Luxury Single
+                    <h5 class="text-center text-[17px] text-slate-600 dark:text-gray-300 font-semibold">Single
                         Room
                     </h5>
 
@@ -183,7 +183,7 @@
                 </div>
 
                 <div class="content">
-                    <h5 class="text-center text-[17px] text-slate-600 dark:text-gray-300 font-semibold">Deluxe Two
+                    <h5 class="text-center text-[17px] text-slate-600 dark:text-gray-300 font-semibold">Two
                         Bedrooms
                     </h5>
 

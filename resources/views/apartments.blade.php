@@ -385,8 +385,8 @@
 
             <div class="content w-full h-[249.2px] bg-white flex flex-col gap-y-6 py-10 px-3">
                 <a href="{{ route('apartment', 7) }}"
-                    class="w-fit mx-auto old-standard text-[1.3rem] text-gray-950 dark:text-stone-700 font-[450] dark:font-semibold">Burndi
-                    Apartment</a>
+                    class="w-fit mx-auto old-standard text-[1.3rem] text-gray-950 dark:text-stone-700 font-[450] dark:font-semibold">Two
+                    Bedrooms</a>
 
                 <div class="w-full px-2  text-center text-[0.75rem] text-slate-600 leading-[1.4]">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum, repudiandae. Lorem ipsum dolor sit
@@ -419,8 +419,9 @@
 
             <div class="content w-full h-[249.2px] bg-white flex flex-col gap-y-6 py-10 px-3">
                 <a href="{{ route('apartment', 8) }}"
-                    class="w-fit mx-auto old-standard text-[1.3rem] text-gray-950 dark:text-stone-700 font-[450] dark:font-semibold">Flex
-                    Apartment</a>
+                    class="w-fit mx-auto old-standard text-[1.3rem] text-gray-950 dark:text-stone-700 font-[450] dark:font-semibold">Four
+                    Bedroom
+                    Penthouse</a>
 
                 <div class="w-full px-2  text-center text-[0.75rem] text-slate-600 leading-[1.4]">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum, repudiandae. Lorem ipsum dolor sit
@@ -487,8 +488,8 @@
 
             <div class="content w-full h-[249.2px] bg-white flex flex-col gap-y-6 py-10 px-3">
                 <a href="{{ route('apartment', 10) }}"
-                    class="w-fit mx-auto old-standard text-[1.3rem] text-gray-950 dark:text-stone-700 font-[450] dark:font-semibold">Pulse
-                    Single Bedroom</a>
+                    class="w-fit mx-auto old-standard text-[1.3rem] text-gray-950 dark:text-stone-700 font-[450] dark:font-semibold">Single
+                    Room</a>
 
                 <div class="w-full px-2  text-center text-[0.75rem] text-slate-600 leading-[1.4]">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum, repudiandae. Lorem ipsum dolor sit
@@ -521,8 +522,8 @@
 
             <div class="content w-full h-[249.2px] bg-white flex flex-col gap-y-6 py-10 px-3">
                 <a href="{{ route('apartment', 11) }}"
-                    class="w-fit mx-auto old-standard text-[1.3rem] text-gray-950 dark:text-stone-700 font-[450] dark:font-semibold">Genesis
-                    Apartment</a>
+                    class="w-fit mx-auto old-standard text-[1.3rem] text-gray-950 dark:text-stone-700 font-[450] dark:font-semibold">Two
+                    Bedrooms</a>
 
                 <div class="w-full px-2  text-center text-[0.75rem] text-slate-600 leading-[1.4]">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum, repudiandae. Lorem ipsum dolor sit
@@ -555,7 +556,7 @@
 
             <div class="content w-full h-[249.2px] bg-white flex flex-col gap-y-6 py-10 px-3">
                 <a href="{{ route('apartment', 12) }}"
-                    class="w-fit mx-auto old-standard text-[1.3rem] text-gray-950 dark:text-stone-700 font-[450] dark:font-semibold">Dipper
+                    class="w-fit mx-auto old-standard text-[1.3rem] text-gray-950 dark:text-stone-700 font-[450] dark:font-semibold">Single
                     Room</a>
 
                 <div class="w-full px-2  text-center text-[0.75rem] text-slate-600 leading-[1.4]">
@@ -589,7 +590,7 @@
 
             <div class="content w-full h-[249.2px] bg-white flex flex-col gap-y-6 py-10 px-3">
                 <a href="{{ route('apartment', 13) }}"
-                    class="w-fit mx-auto old-standard text-[1.3rem] text-gray-950 dark:text-stone-700 font-[450] dark:font-semibold">Azure
+                    class="w-fit mx-auto old-standard text-[1.3rem] text-gray-950 dark:text-stone-700 font-[450] dark:font-semibold">Studio
                     Room</a>
 
                 <div class="w-full px-2  text-center text-[0.75rem] text-slate-600 leading-[1.4]">
@@ -623,8 +624,8 @@
 
             <div class="content w-full h-[249.2px] bg-white flex flex-col gap-y-6 py-10 px-3">
                 <a href="{{ route('apartment', 6) }}"
-                    class="w-fit mx-auto old-standard text-[1.3rem] text-gray-950 dark:text-stone-700 font-[450] dark:font-semibold">Luxury
-                    Studio Apartment</a>
+                    class="w-fit mx-auto old-standard text-[1.3rem] text-gray-950 dark:text-stone-700 font-[450] dark:font-semibold">Two
+                    Bedroom Apartment</a>
 
                 <div class="w-full px-2  text-center text-[0.75rem] text-slate-600 leading-[1.4]">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum, repudiandae. Lorem ipsum dolor sit
@@ -657,8 +658,8 @@
 
             <div class="content w-full h-[249.2px] bg-white flex flex-col gap-y-6 py-10 px-3">
                 <a href="{{ route('apartment', 14) }}"
-                    class="w-fit mx-auto old-standard text-[1.3rem] text-gray-950 dark:text-stone-700 font-[450] dark:font-semibold">Superb
-                    Apartment</a>
+                    class="w-fit mx-auto old-standard text-[1.3rem] text-gray-950 dark:text-stone-700 font-[450] dark:font-semibold">Four
+                    Bedroom Penthouse</a>
 
                 <div class="w-full px-2  text-center text-[0.75rem] text-slate-600 leading-[1.4]">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum, repudiandae. Lorem ipsum dolor sit
