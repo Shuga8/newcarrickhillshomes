@@ -88,6 +88,18 @@ class PagesController extends Controller
 
     public function send(Request $request)
     {
-        return $this->success("Continue");
+        $validator = Validator::make($request->all(), [
+            'fullname' => ['required', 'string'],
+            'email' => ['required', 'string', 'email'],
+            'phone' => ['required', 'string'],
+            'subject' => ['required', 'string'],
+            'message' => ['required', 'string']
+        ]);
+
+        if ($validator->fails()) {
+            return $this->error($validator->errors()->first());
+        }
+
+        $message = nl2br($request->message);
     }
 }

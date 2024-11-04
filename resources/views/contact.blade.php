@@ -34,14 +34,16 @@
                 <div class="grid-cols-1 base:grid-cols-2 grid gap-x-6 gap-y-3 mb-3 base:mb-6">
 
                     <div class="group relative">
-                        <input type="text" placeholder="Your full name..."
+                        <input type="text" placeholder="Your full name..." name="fullname" required
+                            value="{{ old('fullname') }}"
                             class="bg-gray-100 focus:outline-none focus:border-none text-slate-600 w-full text-[13px] py-[14px] base:py-[20px] pl-[40px] pr-[12px] ">
 
                         <i class="fi fi-rr-user absolute top-[50%] translate-y-[-50%] left-[13px] text-stone-700"></i>
                     </div>
 
                     <div class="group relative">
-                        <input type="email" placeholder="Enter your email address..."
+                        <input type="email" placeholder="Enter your email address..." name="email" required
+                            value="{{ old('email') }}"
                             class="bg-gray-100 focus:outline-none focus:border-none text-slate-600 w-full text-[13px] py-[14px] base:py-[20px] pl-[40px] pr-[12px] ">
 
                         <i
@@ -52,7 +54,8 @@
                 <div class="grid-cols-1 base:grid-cols-2 grid gap-x-6 gap-y-3 mb-3 base:mb-6">
 
                     <div class="group relative">
-                        <input type="tel" placeholder="Add phone number..." name="phone"
+                        <input type="tel" placeholder="Add phone number..." name="phone" required
+                            value="{{ old('phone') }}"
                             class="bg-gray-100 focus:outline-none focus:border-none text-slate-600 w-full text-[13px] py-[14px] base:py-[20px] pl-[40px] pr-[12px] ">
 
                         <i
@@ -60,7 +63,8 @@
                     </div>
 
                     <div class="group relative">
-                        <input type="text" placeholder="Message subject..." name="subject"
+                        <input type="text" placeholder="Message subject..." name="subject" required
+                            value="{{ old('subject') }}"
                             class="bg-gray-100 focus:outline-none focus:border-none text-slate-600 w-full text-[13px] py-[14px] base:py-[20px] pl-[40px] pr-[12px] ">
 
                         <i
@@ -71,8 +75,10 @@
                 <div class="grid-cols-1 grid  mb-3 base:mb-6 w-full">
 
                     <div class="group relative">
-                        <textarea id="message" name="message" placeholder="Enter message..."
-                            class="bg-gray-100 placeholder-gray-400 focus:outline-none text-slate-600 w-full text-[13px] py-[14px] base:py-[20px] pl-[40px] pr-[12px] h-[150px]"></textarea>
+                        <textarea id="message" name="message" required placeholder="Enter message..."
+                            class="bg-gray-100 placeholder-gray-400 focus:outline-none text-slate-600 w-full text-[13px] py-[14px] base:py-[20px] pl-[40px] pr-[12px] h-[150px]">
+                            {{ old('fullname') }}
+                        </textarea>
 
 
                         <i class="fi fi-rs-mobile-button absolute top-[19px] left-[13px] text-stone-700"></i>
