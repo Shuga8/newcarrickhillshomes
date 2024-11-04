@@ -1,7 +1,9 @@
 <header class="bg-white dark:bg-[#121212] ">
 
     <div class="logo">
-        <img src="{{ asset('assets/logo-light.png') }}" alt="">
+        <a href="{{ route('home') }}">
+            <img src="{{ asset('assets/logo-light.png') }}" alt="">
+        </a>
     </div>
 
     <div class="links">

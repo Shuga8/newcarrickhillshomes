@@ -8,7 +8,7 @@
             @csrf
 
             <div class="input w-[100%] md:w-[70%] lg:w-[60%] relative">
-                <input type="text" name="email" id="email"
+                <input type="email" name="email" id="email"
                     class="py-[24px] px-[24px] w-full rounded-sm border-transparent bg-slate-200 focus:border-none focus:outline-none text-[#121212] text-[11px] md:text-[14px]"
                     placeholder="email address..." required>
                 <button type="submit"
