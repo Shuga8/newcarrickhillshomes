@@ -57,7 +57,7 @@
 
                 <div
                     class="w-full flex justify-center items-center text-center text-[14px] text-slate-500 dark:text-slate-200 px-[10px]">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, consequatur?
+                    Our expert team ensures exceptional service, making your stay seamless and comfortable.
                 </div>
             </div>
 
@@ -76,7 +76,7 @@
                 <h3 class="text-center capitalize text-[18px] font-[450] text-white">Luxury Apartment</h3>
 
                 <div class="text-white leading-[2] text-[13px] px-3 text-center">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.
+                    Experience elegance, comfort, and modern amenities tailored for your perfect stay.
                 </div>
 
 
@@ -95,10 +95,12 @@
                 Discover Our Apartments
             </p>
 
-            <div class="leading-[1.5] text-gray-400 text-[13px] text-center md:text-left">Lorem ipsum dolor sit amet
-                consectetur adipisicing
-                elit. Minus, natus officiis nihil reprehenderit exercitationem harum recusandae molestiae. Cumque
-                mollitia rerum, suscipit id consequatur unde corporis quidem recusandae. Magni, officiis eveniet.</div>
+            <div class="leading-[2.5] text-gray-600 dark:text-gray-400 text-[13px] text-center md:text-left">Welcome to
+                {{ config('app.name') }} where luxury meets comfort. Our apartments are thoughtfully designed to provide
+                a relaxing and stylish home-away-from-home experience. Our apartments feature modern amenities,
+                exceptional service, and a commitment to excellence. Whether you're here for business or leisure,
+                discover the perfect blend of elegance, convenience, and warmth with us. Let us redefine your
+                expectations of a serviced apartment.</div>
 
             <a href="{{ route('apartments') }}"
                 class="book-btn w-fit py-[16px] text-sm px-14 text-white bg-yellow-600 hover:text-yellow-600 uppercase border-[2px] border-white dark:border-[#121212] hover:border-yellow-600 dark:hover:border-yellow-600 hover:bg-transparent mx-auto md:mx-0">Discover</a>
