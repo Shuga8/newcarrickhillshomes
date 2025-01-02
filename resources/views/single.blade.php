@@ -41,10 +41,10 @@
 
     <div
         class="outside text-[15px] px-3 base:px-24 md:px-44 pt-6 pb-3.5 text-center base:text-left leading-[1.7] text-stone-800 dark:text-stone-300 bg-gray-100 dark:bg-[#1212]">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem facere perferendis ratione minima aspernatur
-        dolores magni asperiores repellat saepe incidunt facilis, voluptates ab explicabo. Minima temporibus dolores,
-        nemo, earum explicabo accusantium, veritatis delectus repellendus consectetur inventore maxime eligendi ducimus
-        doloribus.
+        Unwind in our luxurious single room, offering a perfect blend of comfort and support for a
+        restful night’s sleep. With premium linens and thoughtful design, you’ll feel right at home.
+        Ideal for solo travelers, our single beds provide ample space and comfort, ensuring a
+        peaceful stay. Experience the perfect combination of quality and relaxation.
     </div>
 
     <div
