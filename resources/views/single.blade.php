@@ -320,9 +320,10 @@
 
             <div
                 class="block w-full px-3 py-3 md:px-6 md:py-5 leading-[1.8] text-center base:text-left text-[13px] base:text-[15px] text-stone-700">
-                Phasellus volutpat neque a tellus venenatis, a euismod augue facilisis. Fusce ut metus mattis, consequat
-                metus nec, luctus lectus. Pellentesque orci quis hendrerit sed eu dolor. Cancel up to 14 days to get a
-                full refund.
+                We understand that plans can change. Cancel your reservation up to 14 days before your check-in date for
+                a full refund. For cancellations made after this period, a partial refund may apply. Please note that
+                all cancellations must be made through the same platform or method used to book your stay. For more
+                details, feel free to contact our support team.
             </div>
 
         </div>
