@@ -40,19 +40,16 @@
     </section>
 
     <div
-        class="outside text-[15px] px-3 base:px-24 md:px-44 pt-6 pb-3.5 text-center base:text-left leading-[1.7] text-stone-800 dark:text-stone-300 bg-gray-100 dark:bg-[#1212]">
-        Unwind in our luxurious single room, offering a perfect blend of comfort and support for a
-        restful night’s sleep. With premium linens and thoughtful design, you’ll feel right at home.
-        Ideal for solo travelers, our single beds provide ample space and comfort, ensuring a
-        peaceful stay. Experience the perfect combination of quality and relaxation.
-    </div>
+        class="outside text-[15px] px-3 base:px-24 md:px-44 py-3.5 text-center base:text-left leading-[2.5] text-stone-800 dark:text-stone-300 bg-gray-100 dark:bg-[#1212]">
+        Step into ultimate comfort with our Luxury Single Room, designed for the discerning traveler. Featuring modern
+        decor, premium furnishings, and top-notch amenities, this room offers a perfect blend of style and relaxation.
+        Whether you're here for business or leisure, enjoy a peaceful retreat with plush bedding, a spacious work area,
+        and all the comforts you need for a restful stay.
 
-    <div
-        class="outside text-[15px] px-3 base:px-24 md:px-44 py-3.5 text-center base:text-left leading-[1.7] text-stone-800 dark:text-stone-300 bg-gray-100 dark:bg-[#1212]">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur nulla deserunt at ducimus dolores. Doloribus
-        temporibus voluptate quod doloremque quam inventore architecto animi minima nam iusto explicabo itaque, velit
-        ut. Deserunt officia error culpa vitae voluptas tempore aut quidem, nulla sint nemo debitis quos reiciendis vero
-        minus corporis. Iste inventore blanditiis rem fugiat optio aperiam ea officia consequatur voluptatem expedita!
+        Our Luxury Single Room also includes high-speed internet, an HD TV, and climate control to ensure a personalized
+        experience. The sleek en-suite bathroom is equipped with premium toiletries and a rain shower, adding a touch of
+        indulgence to your stay. With every detail carefully considered, this room promises a memorable experience,
+        where comfort meets sophistication.
     </div>
 
     <div
@@ -351,7 +348,16 @@
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        `
+                        `,
+                    content: ` Step into ultimate comfort with our Luxury Single Room, designed for the discerning traveler. Featuring modern
+                        decor, premium furnishings, and top-notch amenities, this room offers a perfect blend of style and relaxation.
+                        Whether you're here for business or leisure, enjoy a peaceful retreat with plush bedding, a spacious work area,
+                        and all the comforts you need for a restful stay.
+
+                        Our Luxury Single Room also includes high-speed internet, an HD TV, and climate control to ensure a personalized
+                        experience. The sleek en-suite bathroom is equipped with premium toiletries and a rain shower, adding a touch of
+                        indulgence to your stay. With every detail carefully considered, this room promises a memorable experience,
+                        where comfort meets sophistication.`
                 },
                 {
                     title: "Studio Room",
@@ -361,7 +367,9 @@
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        `
+                        `,
+                    content: `Our stylish Studio Room offers an open-plan layout that combines comfort and functionality, making it the perfect choice for solo travelers or couples. With modern furnishings and thoughtful design, the room features a comfortable bed, a cozy seating area, and a fully equipped kitchenette for your convenience.
+                    Enjoy a peaceful atmosphere with amenities such as high-speed internet, an HD TV, and climate control. The sleek en-suite bathroom, complete with premium toiletries, adds a touch of luxury to your stay. Whether you're in town for business or leisure, our Studio Room provides the perfect balance of comfort and practicality for an enjoyable experience.`
                 },
                 {
                     title: "One Bedroom",
@@ -371,7 +379,9 @@
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        `
+                        `,
+                    content: `Our One Bedroom apartment offers a perfect blend of comfort and privacy, ideal for solo travelers or couples. Featuring modern decor and a spacious layout, this apartment is designed to ensure a relaxing stay with premium furnishings and thoughtful amenities.
+                    The bedroom is equipped with a plush bed, ample storage, and a serene atmosphere for restful nights. Enjoy a fully equipped kitchen, cozy living area, high-speed internet, and a stylish bathroom with luxury toiletries. Whether you're here for a short getaway or an extended stay, our One Bedroom apartment offers the perfect home away from home.`
                 },
                 {
                     title: "Two Bedrooms",
@@ -381,7 +391,9 @@
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        `
+                        `,
+                    content: `Our Two-Bedroom apartment offers the perfect blend of space, comfort, and convenience for families or small groups. With modern furnishings and thoughtful design, each bedroom provides a restful environment with premium bedding and ample storage.
+                        Enjoy a fully equipped kitchen, a spacious living area, and contemporary amenities such as high-speed internet, HD TV, and air conditioning. The apartment’s layout ensures privacy and comfort, while the shared spaces are ideal for relaxation or socializing. Whether you’re here for a short stay or extended visit, this apartment is designed to meet all your needs.`
                 },
                 {
                     title: "Four Bedroom Penthouse",
@@ -391,7 +403,9 @@
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        `
+                        `,
+                    content: `Indulge in luxury with our Four Bedroom Penthouse, offering expansive living spaces and stunning views that create an unparalleled experience. Perfect for large families or groups, this penthouse combines elegance and comfort with modern furnishings and high-end amenities.
+                    Each bedroom is a private retreat, featuring plush bedding and ample space for relaxation. The open-plan living and dining areas are perfect for entertaining, and the fully equipped kitchen adds convenience to your stay. With large windows offering breathtaking views and exclusive access to premium facilities, this penthouse redefines luxury living. Experience the pinnacle of comfort and sophistication in every corner of this stunning apartment.`,
                 },
                 {
                     title: "Two Bedroom Apartment",
@@ -401,7 +415,9 @@
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        `
+                        `,
+                    content: `Our Two Bedroom Apartment is designed for comfort and convenience, making it ideal for families or small groups. Spacious and beautifully furnished, it offers a relaxing atmosphere with modern amenities and a homely touch.
+                    Each bedroom is thoughtfully designed to provide ample space and comfort, ensuring a restful night's sleep. The fully equipped kitchen allows for easy meal preparation, and the cozy living area is perfect for unwinding or spending quality time together. With high-speed internet, HD TV, and a stylish bathroom with luxury toiletries, this apartment ensures a memorable and comfortable stay.`
                 },
                 {
                     title: "Two Bedrooms",
@@ -411,7 +427,9 @@
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        `
+                        `,
+                    content: `Our Two-Bedroom apartment offers the perfect blend of space, comfort, and convenience for families or small groups. With modern furnishings and thoughtful design, each bedroom provides a restful environment with premium bedding and ample storage.
+                        Enjoy a fully equipped kitchen, a spacious living area, and contemporary amenities such as high-speed internet, HD TV, and air conditioning. The apartment’s layout ensures privacy and comfort, while the shared spaces are ideal for relaxation or socializing. Whether you’re here for a short stay or extended visit, this apartment is designed to meet all your needs.`
                 },
                 {
                     title: "Four Bedroom Penthouse",
@@ -421,7 +439,10 @@
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        `
+                        `,
+                    content: `Indulge in luxury with our Four Bedroom Penthouse, offering expansive living spaces and stunning views that create an unparalleled experience. Perfect for large families or groups, this penthouse combines elegance and comfort with modern furnishings and high-end amenities.
+                    Each bedroom is a private retreat, featuring plush bedding and ample space for relaxation. The open-plan living and dining areas are perfect for entertaining, and the fully equipped kitchen adds convenience to your stay. With large windows offering breathtaking views and exclusive access to premium facilities, this penthouse redefines luxury living. Experience the pinnacle of comfort and sophistication in every corner of this stunning apartment.`,
+
                 },
                 {
                     title: "Single Bedroom",
@@ -431,7 +452,16 @@
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        `
+                        `,
+                    content: ` Step into ultimate comfort with our Luxury Single Room, designed for the discerning traveler. Featuring modern
+                        decor, premium furnishings, and top-notch amenities, this room offers a perfect blend of style and relaxation.
+                        Whether you're here for business or leisure, enjoy a peaceful retreat with plush bedding, a spacious work area,
+                        and all the comforts you need for a restful stay.
+
+                        Our Luxury Single Room also includes high-speed internet, an HD TV, and climate control to ensure a personalized
+                        experience. The sleek en-suite bathroom is equipped with premium toiletries and a rain shower, adding a touch of
+                        indulgence to your stay. With every detail carefully considered, this room promises a memorable experience,
+                        where comfort meets sophistication.`
                 },
                 {
                     title: "Single Room",
@@ -441,7 +471,16 @@
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        `
+                        `,
+                    content: ` Step into ultimate comfort with our Luxury Single Room, designed for the discerning traveler. Featuring modern
+                        decor, premium furnishings, and top-notch amenities, this room offers a perfect blend of style and relaxation.
+                        Whether you're here for business or leisure, enjoy a peaceful retreat with plush bedding, a spacious work area,
+                        and all the comforts you need for a restful stay.
+
+                        Our Luxury Single Room also includes high-speed internet, an HD TV, and climate control to ensure a personalized
+                        experience. The sleek en-suite bathroom is equipped with premium toiletries and a rain shower, adding a touch of
+                        indulgence to your stay. With every detail carefully considered, this room promises a memorable experience,
+                        where comfort meets sophistication.`
                 },
                 {
                     title: "Two Bedrooms",
@@ -451,7 +490,9 @@
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        `
+                        `,
+                    content: `Our Two-Bedroom apartment offers the perfect blend of space, comfort, and convenience for families or small groups. With modern furnishings and thoughtful design, each bedroom provides a restful environment with premium bedding and ample storage.
+                        Enjoy a fully equipped kitchen, a spacious living area, and contemporary amenities such as high-speed internet, HD TV, and air conditioning. The apartment’s layout ensures privacy and comfort, while the shared spaces are ideal for relaxation or socializing. Whether you’re here for a short stay or extended visit, this apartment is designed to meet all your needs.`
                 },
                 {
                     title: "Single Room",
@@ -461,7 +502,16 @@
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        `
+                        `,
+                    content: ` Step into ultimate comfort with our Luxury Single Room, designed for the discerning traveler. Featuring modern
+                        decor, premium furnishings, and top-notch amenities, this room offers a perfect blend of style and relaxation.
+                        Whether you're here for business or leisure, enjoy a peaceful retreat with plush bedding, a spacious work area,
+                        and all the comforts you need for a restful stay.
+
+                        Our Luxury Single Room also includes high-speed internet, an HD TV, and climate control to ensure a personalized
+                        experience. The sleek en-suite bathroom is equipped with premium toiletries and a rain shower, adding a touch of
+                        indulgence to your stay. With every detail carefully considered, this room promises a memorable experience,
+                        where comfort meets sophistication.`
                 },
                 {
                     title: "Studio Room",
@@ -471,7 +521,9 @@
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        `
+                        `,
+                    content: `Our stylish Studio Room offers an open-plan layout that combines comfort and functionality, making it the perfect choice for solo travelers or couples. With modern furnishings and thoughtful design, the room features a comfortable bed, a cozy seating area, and a fully equipped kitchenette for your convenience.
+                    Enjoy a peaceful atmosphere with amenities such as high-speed internet, an HD TV, and climate control. The sleek en-suite bathroom, complete with premium toiletries, adds a touch of luxury to your stay. Whether you're in town for business or leisure, our Studio Room provides the perfect balance of comfort and practicality for an enjoyable experience.`
                 },
                 {
                     title: "Four Bedroom Penthouse",
@@ -481,7 +533,9 @@
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        `
+                        `,
+                    content: `Indulge in luxury with our Four Bedroom Penthouse, offering expansive living spaces and stunning views that create an unparalleled experience. Perfect for large families or groups, this penthouse combines elegance and comfort with modern furnishings and high-end amenities.
+                    Each bedroom is a private retreat, featuring plush bedding and ample space for relaxation. The open-plan living and dining areas are perfect for entertaining, and the fully equipped kitchen adds convenience to your stay. With large windows offering breathtaking views and exclusive access to premium facilities, this penthouse redefines luxury living. Experience the pinnacle of comfort and sophistication in every corner of this stunning apartment.`,
                 },
             ];
             let index = parseInt("{{ $index }}") - 1;
@@ -490,6 +544,7 @@
             document.querySelector(".video").innerHTML = apartments[index].video;
             document.querySelector("#img").setAttribute("src", apartments[index].img);
             document.querySelector("#img_url").setAttribute("href", apartments[index].img);
+            document.querySelector(".outside").textContent = apartments[index].content;
         </script>
     @endpush
 </x-layout>
