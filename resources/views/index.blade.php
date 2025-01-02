@@ -28,7 +28,7 @@
 
         </div>
 
-        <div class="img-slideshow hidden md:hidden lg:block">
+        <div class="img-slideshow block">
 
             <img src="{{ asset('assets/IMG_3654.jpeg') }}" alt="" id="show-1">
 

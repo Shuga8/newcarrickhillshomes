@@ -424,13 +424,16 @@ aside {
     }
 }
 
-@media (min-height: 720px) {
+@media (min-height: 890px) {
     .hero {
         padding-top: 170px;
     }
 }
 
-@media (max-height: 720px) {
+@media ((max-height: 890px) and (max-width: 800px)) {
+    .hero {
+        padding-top: 20px;
+    }
     .apartments-lg {
         .apartment {
             height: 145dvh;
