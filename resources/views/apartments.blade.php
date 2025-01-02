@@ -40,9 +40,10 @@
 
                         <p
                             class="text-[12px] base:text-[14px] leading-[1.4] base:leading-[1.9] base-[18px] text-gray-500 mb-7 md:mb-12">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam distinctio illo sint
-                            reprehenderit molestiae ducimus odio natus quasi velit cum, dolorum quos voluptates facere
-                            nobis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, eaque?
+                            Unwind in our luxurious single beds, offering a perfect blend of comfort and support for a
+                            restful night’s sleep. With premium linens and thoughtful design, you’ll feel right at home.
+                            Ideal for solo travelers, our single beds provide ample space and comfort, ensuring a
+                            peaceful stay. Experience the perfect combination of quality and relaxation.
 
                         </p>
 
@@ -211,10 +212,11 @@
 
                         <p
                             class="text-[12px] base:text-[14px] leading-[1.4] base:leading-[1.9] base-[18px] text-gray-500 mb-7 md:mb-12">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam distinctio illo sint
-                            reprehenderit molestiae ducimus odio natus quasi velit cum, dolorum quos voluptates facere
-                            nobis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, eaque?
-
+                            Experience ultimate comfort with our plush luxury double beds, designed for a restful
+                            night’s sleep. Enjoy spaciousness, premium linens, and superior support for your
+                            relaxation.Perfect for couples or solo travelers, the bed is crafted to provide the ideal
+                            balance of softness and support. Sleep soundly in an environment tailored for your comfort
+                            and well-being.
                         </p>
 
                         <div class="text-center base:text-left">
@@ -389,8 +391,8 @@
                     Bedrooms</a>
 
                 <div class="w-full px-2  text-center text-[0.75rem] text-slate-600 leading-[1.4]">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum, repudiandae. Lorem ipsum dolor sit
-                    amet.
+                    Spacious and elegantly designed, our two-bedroom apartments offer comfort and privacy, perfect for
+                    families or groups.
                 </div>
 
                 <a href="{{ route('apartment', 7) }}"
@@ -424,8 +426,8 @@
                     Penthouse</a>
 
                 <div class="w-full px-2  text-center text-[0.75rem] text-slate-600 leading-[1.4]">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum, repudiandae. Lorem ipsum dolor sit
-                    amet.
+                    Indulge in luxury with our expansive four-bedroom penthouse, featuring premium amenities, stunning
+                    views, and ample space for ultimate comfort.
                 </div>
 
                 <a href="{{ route('apartment', 8) }}"
@@ -458,8 +460,8 @@
                     Bedroom</a>
 
                 <div class="w-full px-2  text-center text-[0.75rem] text-slate-600 leading-[1.4]">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum, repudiandae. Lorem ipsum dolor sit
-                    amet.
+                    Our cozy single bedrooms offer a peaceful retreat with comfortable furnishings and modern amenities,
+                    perfect for solo travelers.
                 </div>
 
                 <a href="{{ route('apartment', 9) }}"
@@ -492,8 +494,8 @@
                     Room</a>
 
                 <div class="w-full px-2  text-center text-[0.75rem] text-slate-600 leading-[1.4]">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum, repudiandae. Lorem ipsum dolor sit
-                    amet.
+                    Enjoy a comfortable and private space in our well-appointed single rooms, ideal for a relaxing stay
+                    with all essential amenities.
                 </div>
 
                 <a href="{{ route('apartment', 10) }}"
@@ -526,8 +528,8 @@
                     Bedrooms</a>
 
                 <div class="w-full px-2  text-center text-[0.75rem] text-slate-600 leading-[1.4]">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum, repudiandae. Lorem ipsum dolor sit
-                    amet.
+                    Our two-bedroom apartments provide spacious living with modern amenities, perfect for families or
+                    small groups seeking comfort and privacy.
                 </div>
 
                 <a href="{{ route('apartment', 11) }}"
@@ -560,8 +562,8 @@
                     Room</a>
 
                 <div class="w-full px-2  text-center text-[0.75rem] text-slate-600 leading-[1.4]">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum, repudiandae. Lorem ipsum dolor sit
-                    amet.
+                    Relax in our cozy single rooms, offering a comfortable and peaceful stay with all the essentials for
+                    solo travelers
                 </div>
 
                 <a href="{{ route('apartment', 12) }}"
@@ -594,8 +596,8 @@
                     Room</a>
 
                 <div class="w-full px-2  text-center text-[0.75rem] text-slate-600 leading-[1.4]">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum, repudiandae. Lorem ipsum dolor sit
-                    amet.
+                    Our stylish studio rooms offer an open-plan layout with modern amenities, ideal for guests seeking a
+                    functional and cozy living space.
                 </div>
 
                 <a href="{{ route('apartment', 13) }}"
@@ -628,8 +630,8 @@
                     Bedroom Apartment</a>
 
                 <div class="w-full px-2  text-center text-[0.75rem] text-slate-600 leading-[1.4]">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum, repudiandae. Lorem ipsum dolor sit
-                    amet.
+                    Our two-bedroom apartments offer spacious living, perfect for families or small groups, with modern
+                    amenities and a comfortable, home-like atmosphere.
                 </div>
 
                 <a href="{{ route('apartment', 6) }}"
@@ -662,8 +664,8 @@
                     Bedroom Penthouse</a>
 
                 <div class="w-full px-2  text-center text-[0.75rem] text-slate-600 leading-[1.4]">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum, repudiandae. Lorem ipsum dolor sit
-                    amet.
+                    Experience luxury in our four-bedroom penthouse, featuring expansive living spaces, stunning views,
+                    and top-tier amenities for an unforgettable stay.
                 </div>
 
                 <a href="{{ route('apartment', 14) }}"
