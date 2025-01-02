@@ -256,8 +256,8 @@
                 </h5>
 
                 <div class=" text-[#222] dark:text-gray-200 font-[350] w-full text-[13px]">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet ratione repellat mollitia fugiat
-                    delectus dolor repudiandae odit.
+                    We pride ourselves on maintaining the highest standards of quality and comfort, ensuring every stay
+                    exceeds expectations.
                 </div>
 
 
@@ -280,8 +280,8 @@
                 </h5>
 
                 <div class=" text-[#222] dark:text-gray-200 font-[350] w-full text-[13px]">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet ratione repellat mollitia fugiat
-                    delectus dolor repudiandae odit.
+                    Enjoy peace and relaxation with designated quiet hours, ensuring a serene and restful environment
+                    for all our guests.
                 </div>
 
 
@@ -304,8 +304,8 @@
                 </h5>
 
                 <div class=" text-[#222] dark:text-gray-200 font-[350] w-full text-[13px]">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet ratione repellat mollitia fugiat
-                    delectus dolor repudiandae odit.
+                    Our apartments are strategically located in prime areas, offering easy access to major attractions,
+                    business hubs, and local conveniences.
                 </div>
 
 
@@ -329,8 +329,8 @@
                 </h5>
 
                 <div class=" text-[#222] dark:text-gray-200 font-[350] w-full text-[13px]">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet ratione repellat mollitia fugiat
-                    delectus dolor repudiandae odit.
+                    Enjoy flexibility and peace of mind with our hassle-free cancellation policy, designed to
+                    accommodate your changing plans.
                 </div>
 
 
@@ -354,8 +354,8 @@
                 </h5>
 
                 <div class=" text-[#222] dark:text-gray-200 font-[350] w-full text-[13px]">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet ratione repellat mollitia fugiat
-                    delectus dolor repudiandae odit.
+                    We offer a variety of convenient payment options to suit your needs, including credit/debit cards,
+                    bank transfers, and online payment methods.
                 </div>
 
 
@@ -378,8 +378,8 @@
                 </h5>
 
                 <div class=" text-[#222] dark:text-gray-200 font-[350] w-full text-[13px]">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet ratione repellat mollitia fugiat
-                    delectus dolor repudiandae odit.
+                    Take advantage of our exclusive deals and discounts for a memorable stay at unbeatable rates. Check
+                    back regularly for new offers!
                 </div>
 
 
